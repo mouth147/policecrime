@@ -1,0 +1,819 @@
+id,name,age,gender,race
+1,"Joshua Sisson",30,Male,White
+2,"Germonta Wallace",30,Male,Black
+3,"Sean O'Brien",37,Male,White
+4,"Rodney Turner",22,Male,Black
+5,"Eric Senegal",27,Male,Black
+6,"David Zollo",54,Male,White
+7,"Joel Nelson",29,Male,White
+8,"Stephen Bukwich",52,Male,White
+9,"Charles Hollstein",38,Male,White
+10,"Albert Thompson",28,Male,Hispanic/Latino
+11,"James Maher",39,Male,White
+12,"Alan Franco-Armenta",32,Male,Hispanic/Latino
+13,"Kenneth Clay",34,Male,White
+14,"David Kent",37,Male,White
+15,"Christine Lucas",45,Female,White
+16,"Andrew Abernathy",50,Male,White
+17,"Eric Olsen",26,Male,White
+18,"Robert Tenbrink",45,Male,White
+19,"Ramone Lonergan",32,Male,White
+20,"Alan Bartley",56,Male,White
+21,"Ciara Meyer",12,Female,White
+22,"Herman Bean Jr",49,Male,"Native American"
+23,"Keith Richardson",58,Male,White
+24,"Willie Holderfield",41,Male,White
+25,"Timothy Meehan",60,Male,White
+26,"Miguel Hernandez",39,Male,Hispanic/Latino
+27,"Kelsey Hauser",25,Female,White
+28,"Efrain Herrera Jr",24,Male,Hispanic/Latino
+29,"Alfred Longoria",34,Male,Hispanic/Latino
+30,"Henry Bennett",19,Male,Black
+31,"William Waldron",26,Male,White
+32,"Timothy Caruthers",27,Male,White
+33,"Adam Karjalainen",44,Male,White
+34,"Joshua Fielding",38,Male,White
+35,"Crayton West",52,Male,Black
+36,"Ashton Morris",27,Male,White
+37,"Jordan Szymanski",33,Male,White
+38,"Clarence Layfield Jr",55,Male,White
+39,"Cory Henderson",31,Male,White
+40,"Daniel Shaver",26,Male,White
+41,"Vasilios Katsouras",29,Male,White
+42,"Levi Wilson",39,Male,White
+43,"Samuel Grady",55,Male,White
+44,"Gary Jones",36,Male,White
+45,"Eric Provost",28,Male,White
+46,"Brandon Bearden",29,Male,White
+47,"Jim Redmond",28,Male,White
+48,"Randy Sanders Jr",33,Male,White
+49,"Timothy Albert",40,Male,Black
+50,"Michael Lynch",37,Male,White
+51,"Rakeem Bentley",24,Male,Black
+52,"Cedric Norris",39,Male,Black
+53,"Lance Light",54,Male,White
+54,"Lonnie Powers Jr",37,Male,White
+55,"Joshua Lee",26,Male,White
+56,"Sharon Mitterling",67,Female,White
+57,"Michael Robinson",43,Male,White
+58,"Sergio Alvarado-Morales",38,Male,Hispanic/Latino
+59,"Filberto Valencia",26,Male,Hispanic/Latino
+60,"Robert 'LaVoy' Finicum",55,Male,White
+61,"Janet Wilson",31,Female,Black
+62,"Johnathan Bratcher",32,Male,Black
+63,"Israel Rodriguez",26,Male,Hispanic/Latino
+64,"Nathan Bailey",30,Male,White
+65,"Scott Scanlon",52,Male,White
+66,"John Smith",27,Male,White
+67,"Herman Flores",31,Male,Hispanic/Latino
+68,"Thongsavanh Vandarack",40,Male,"Asian/Pacific Islander"
+69,"William Adams",33,Male,White
+70,"Jacqueline Salyers",32,Female,"Native American"
+71,"Randolph McClain",33,Male,Black
+72,"Christopher Dew",29,Male,Black
+73,"Philip Salazar",38,Male,Hispanic/Latino
+74,"Jose Alegre",64,Male,Hispanic/Latino
+75,"Michael Brown",25,Male,White
+76,"Bruce Kelley Jr",37,Male,Black
+77,"Charles Smith",29,Male,Black
+78,"Peter John",36,Male,Black
+79,"Jeremy Sinclair",42,Male,White
+80,"Juan Ruiz",46,Male,Hispanic/Latino
+81,"Jeffry Graves",62,Male,White
+82,"Edgar Alvarado",21,Male,Hispanic/Latino
+83,"Justin Prescott",30,Male,White
+84,"John Neuman",53,Male,White
+85,"Angela Hiatt",41,Female,White
+86,"Joseph Molinaro",34,Male,"Native American"
+87,"Raymond Gassman",Unknown,Male,"Native American"
+88,"Cristiaan Dubrino",31,Male,White
+89,"Antronie Scott",36,Male,Black
+90,"Thomas Hirko",54,Male,White
+91,"Kayden Clarke",24,Male,White
+92,"Scott Harless",47,Male,White
+93,"Ronald Barawis Jr",38,Male,"Asian/Pacific Islander"
+94,"Joshua Bispo",42,Male,White
+95,"Blake Fitzgerald",30,Male,White
+96,"Hector Leroy",43,Male,Hispanic/Latino
+97,"Phillip Ferry",55,Male,White
+98,"Michael Laniado",27,Male,White
+99,"Jose Mendez",16,Male,Hispanic/Latino
+100,"Phillip Luchsinger",36,Male,White
+101,"Marese Collins",23,Male,Black
+102,"Shalamar Longer",33,Male,Black
+103,"David Joseph",17,Male,Black
+104,"Vinson Strickland",51,Male,White
+105,"Eric Harris",22,Male,Black
+106,"Gustavo Najera",22,Male,Hispanic/Latino
+107,"Scottie Yanagawa",29,Male,"Asian/Pacific Islander"
+108,"David Evans",68,Male,White
+109,"Timothy Vessels",41,Male,White
+110,"Emily Thibodeaux",23,Female,White
+111,"John Birkeland",52,Male,White
+112,"Anthony Bertoni",56,Male,White
+113,"Vincent Nageak III",36,Male,"Native American"
+114,"Matthew Quinn",45,Male,White
+115,"Mohamed Barry",30,Male,Black
+116,"Alijah Jackson",35,Male,White
+117,"Peter Fanfan",29,Male,Black
+118,"Sahlah Ridgeway",32,Female,Black
+119,"David Watson",53,Male,White
+120,"Calin Roquemore",24,Male,Black
+121,"Calvin Smith",22,Male,Black
+122,"Dyzhawn Perkins",19,Male,Black
+123,"Ali Yahia",29,Male,Black
+124,"Rammy Jaradat",26,Male,Arab-American
+125,"Eduardo Rodriguez",24,Male,Hispanic/Latino
+126,"Marc Stoddart",50,Male,White
+127,"Brandon Witt",39,Male,White
+128,"Christopher Andrews",51,Male,White
+129,"Destry Meikle",48,Male,White
+130,"Shawn Dickens",30,Male,White
+131,"Deborah Roman",44,Female,White
+132,"Nathan Roman",10,Male,White
+133,"Talmadge King",47,Male,White
+134,"Guadalupe Sauceda",52,Male,Hispanic/Latino
+135,"Paul Gaston",37,Male,Black
+136,"Joseph Noel",25,Male,White
+137,"Oscar Reyes",35,Male,Hispanic/Latino
+138,"Jose Quintanilla",30,Male,Hispanic/Latino
+139,"Ronnie Padron",32,Male,Hispanic/Latino
+140,"Justin Moses",35,Male,White
+141,"Marcos Perea",41,Male,Hispanic/Latino
+142,"Charles Lambert",45,Male,White
+143,"Edgar Camacho-Alvarado",23,Male,Hispanic/Latino
+144,"Danny Rendon",30,Male,Hispanic/Latino
+145,"Kisha Michael",31,Female,Black
+146,"Marquintan Sandlin",32,Male,Black
+147,"Che Taylor",47,Male,Black
+148,"Sherrisa Homer",36,Female,"Native American"
+149,"Patricia Kruger",38,Female,"Native American"
+150,"Jamie Long",45,Male,White
+151,"David Green",38,Male,White
+152,"Gerardino Cayetano-Gonzalez",33,Male,Hispanic/Latino
+153,"Rouven Loch",22,Male,White
+154,"Baltazar Ramos",39,Male,Hispanic/Latino
+155,"Curtis Dugger",31,Male,White
+156,"Alex Buckner",26,Male,"Asian/Pacific Islander"
+157,"Angel Gleason",36,Male,White
+158,"Travis Stevenson",48,Male,Black
+159,"Robert Keil",16,Male,White
+160,"Martin Wirth",58,Male,White
+161,"Victor Rivera",27,Male,Hispanic/Latino
+162,"Francisco Garcia",26,Male,Hispanic/Latino
+163,"Luke Miller",37,Male,White
+164,"Greg Gunn",56,Male,Black
+165,"Tristan Conti",19,Male,White
+166,"Cedric Ford",38,Male,Black
+167,"Abraham Fryer",35,Male,White
+168,"Kionte Spencer",18,Male,Black
+169,"Fernando Hernandez",23,Male,Hispanic/Latino
+170,"Nathan Grissom",41,Male,White
+171,"Earl Hicks II",43,Male,White
+172,"Akiel Denkins",24,Male,Black
+173,"Dimitri Corcino",39,Male,Hispanic/Latino
+174,"Jorge Gonzalez",22,Male,Hispanic/Latino
+175,"Mickey Sweatt",37,Male,White
+176,"Travis Bradley",35,Male,White
+177,"Sergio Ochoa",27,Male,Hispanic/Latino
+178,"Christopher Kalonji",19,Male,Black
+179,"Daniel Burkhardt",41,Male,White
+180,"Darrell Bosell",34,Male,White
+181,"Herbert Ballance",22,Male,White
+182,"John Chamberlain",66,Male,White
+183,"Osvaldo Torres",41,Male,Hispanic/Latino
+184,"Philip Vitullo",49,Male,White
+185,"James 'Tony' Scott",42,Male,White
+186,"Mark Minnick",51,Male,White
+187,"Randall Selsor",45,Male,White
+188,"Byron Rosas",45,Male,White
+189,"John Charles Graham",42,Male,White
+190,"Brandon Stanley",30,Male,White
+191,"Jeffrey Casale",27,Male,White
+192,"Daniel Chavez",41,Male,Hispanic/Latino
+193,"Alex Thompson",37,Male,White
+194,"Jason Meador",50,Male,White
+195,"Arteair Porter Jr",22,Male,Black
+196,"Wesley Sheppard",37,Male,White
+197,"Martin Hurtado",21,Male,Hispanic/Latino
+198,"German Gonzalez",23,Male,Hispanic/Latino
+199,"Tyre Privott",25,Male,Black
+200,"Manford 'Butch' Moore Jr",51,Male,White
+201,"Teodoro Valencia",23,Male,Hispanic/Latino
+202,"Peter Gaines",35,Male,Black
+203,"Keith Montgomery Jr",24,Male,Black
+204,"Joshua Grubb",30,Male,White
+205,"Marco Loud",20,Male,Black
+206,"Wesley 'Chad' Deerman",26,Male,White
+207,"Gevork Alachadzhyan",45,Male,White
+208,"Amy McCoy",38,Female,White
+209,"Jack Goodman",46,Male,White
+210,"Jose Cruz",16,Male,Hispanic/Latino
+211,"Jacai Colson",28,Male,Black
+212,"Lamar Harris",29,Male,Black
+213,"Joseph Harris",34,Male,White
+214,"Cristian Medina",23,Male,Hispanic/Latino
+215,"Ed McIver Sr",43,Male,White
+216,"Daniel Wooters",38,Male,White
+217,"Vincent Avila",25,Male,Hispanic/Latino
+218,"Eric Hernandez",33,Male,Hispanic/Latino
+219,"Dennis Penny",40,Male,White
+220,"Map Kong",38,Male,"Asian/Pacific Islander"
+221,"Sunny Chin",53,Male,"Asian/Pacific Islander"
+222,"Carlton Murphy Jr",33,Male,Black
+223,"Scott Bennett",29,Male,Black
+224,"Christopher Nelms",30,Male,Black
+225,"Michael Mallett",49,Male,Unknown
+226,"India Beaty",25,Female,Black
+227,"Thurman Reynolds",21,Male,Black
+228,"Dylan Whitaker",23,Male,White
+229,"Joshua Douglas",24,Male,White
+230,"Boyd Ballard",61,Male,White
+231,"Abraham Martinez",62,Male,Hispanic/Latino
+232,"Robert Dentmond",16,Male,Black
+233,"Clarence Briggs",55,Male,White
+234,"Ralph 'Phil' Grenon",76,Male,White
+235,"Edward Gorinski",28,Male,White
+236,"Dylan Pape",25,Male,White
+237,"Travis Blair",33,Male,White
+238,"Ethan Rincon",25,Male,Hispanic/Latino
+239,"Daven Hannu",51,Male,White
+240,"Alexio Allen",30,Male,Black
+241,"Robert Dussourd",44,Male,White
+242,"Raymond Gonzalez",34,Male,Hispanic/Latino
+243,"Joel Gonzales",48,Male,Hispanic/Latino
+244,"Andrew Mike",29,Male,White
+245,"Dominique Silva",24,Male,Black
+246,"Jermon Seals",22,Male,Black
+247,"Terrence Blackburn",36,Male,White
+248,"Mario Sandoval",19,Male,Hispanic/Latino
+249,"Patrick McManamon",46,Male,White
+250,"Donald White",55,Male,White
+251,"Jose Perez",39,Male,Hispanic/Latino
+252,"Robert Guerin",33,Male,White
+253,"Deriante Miller",18,Male,Black
+254,"Loreal Tsingine",27,Female,"Native American"
+255,"Jeffrey Lanahan",34,Male,White
+256,"Earl Ashby",33,Male,White
+257,"Joseph Melvin",46,Male,White
+258,"Robert Garrison Jr",51,Male,White
+259,"Denise Fairchild",50,Female,White
+260,"Angel Montion",33,Male,Hispanic/Latino
+261,"James Brown III",34,Male,Black
+262,"Matthew Wood Jr",43,Male,Black
+263,"Kimani Johnson",18,Male,Black
+264,"Jesse Juarez",65,Male,Hispanic/Latino
+265,"Joel Fabela",38,Male,Hispanic/Latino
+266,"Cameron Glover",30,Male,Black
+267,"David Mack",69,Male,White
+268,"Darrin Martin",25,Male,White
+269,"Melissa Boarts",36,Female,White
+270,"Raul Marquez-Heraldes",50,Male,Hispanic/Latino
+271,"Kevin Hicks",44,Male,Black
+272,"Peter Doherty",52,Male,White
+273,"Marvin Cremeans",60,Male,White
+274,"Christopher Erdman",39,Male,White
+275,"Laronda Sweatt",40,Female,Black
+276,"Cesar Frias",20,Male,Hispanic/Latino
+277,"Luis Góngora",45,Male,Hispanic/Latino
+278,"Lance McIntire",44,Male,White
+279,"Christopher Wilson",41,Male,White
+280,"Dazion 'Jerome' Flenaugh",40,Male,Black
+281,"Lamont Gulley",43,Male,Black
+282,"Melissa Abbott",25,Female,White
+283,"Diahlo Grant",27,Male,Black
+284,"Lonnie Ball",39,Male,White
+285,"Arturo Yobani-Torrez Valdez",27,Male,Hispanic/Latino
+286,"Quron Williams",19,Male,Black
+287,"William Clark III",30,Male,White
+288,"Pierre Loury",16,Male,Black
+289,"Efren Trujillo-Soriano",22,Male,Hispanic/Latino
+290,"Dion Damon",40,Male,White
+291,"Travis Wood",20,Male,White
+292,"Rodney Watts",35,Male,Black
+293,"Joshua Moreno",38,Male,Hispanic/Latino
+294,"Jeffrey Wise",52,Male,White
+295,"Koltlee Whitson",26,Male,White
+296,"Luis Soto",29,Male,Hispanic/Latino
+297,"Jeff Robertson",54,Male,White
+298,"Allen 'Storm' Smith",26,Male,White
+299,"David Swatsky",52,Male,White
+300,"Clemente Najera",38,Male,Hispanic/Latino
+301,"Gerald Boyes",52,Male,White
+302,"Kisha Arrone",35,Female,Black
+303,"George Tillman",32,Male,Black
+304,"Richard Bard Jr",31,Male,Black
+305,"Edson Thevenin",38,Male,Black
+306,"Eric Wilson",22,Male,White
+307,"Jorevis Scruggs",15,Male,Black
+308,"Sylasone Ackhavong",41,Male,"Asian/Pacific Islander"
+309,"Rico Johnson",28,Male,Black
+310,"Demetrius Dorsey",18,Male,Black
+311,"Robert Howard",44,Male,Black
+312,"Daniel Blackmon",38,Male,White
+313,"Francis Dufore",41,Male,White
+314,"Jackie Kirkham",52,Male,White
+315,"Mario Mejia-Martinez",48,Male,Hispanic/Latino
+316,"Christopher Tokazowski",43,Male,White
+317,"Tyler Hunkin",29,Male,White
+318,"Carl Baranishyn",51,Male,White
+319,"Mitchell Oakley",24,Male,White
+320,"Jakob Wagner",18,Male,White
+321,"Demarcus Semer",21,Male,Black
+322,"Eric Wakup",30,Male,White
+323,"Bradford Macomber",53,Male,White
+324,"Kay Campbell",60,Female,White
+325,"Jacquelyn Burke",24,Female,White
+326,"Joshua Brooks",26,Male,Black
+327,"Robin Barber",28,Male,White
+328,"Darrel Machemehl",44,Male,White
+329,"Damon Blair",21,Male,White
+330,"Cin Mung",34,Male,"Asian/Pacific Islander"
+331,"Kendar del Rosario",37,Male,Hispanic/Latino
+332,"Ashtian Barnes",25,Male,Black
+333,"Michael Kurtz",45,Male,White
+334,"Lee Easter",54,Male,White
+335,"Jeffrey Hobbs",48,Male,White
+336,"Mark Bess",33,Male,White
+337,"Bender Dass",55,Male,White
+338,"Oswald 'Ozzie' Mattner",42,Male,White
+339,"Charlin Charles",25,Male,Black
+340,"Marion Habana",28,Male,"Asian/Pacific Islander"
+341,"Abelino Cordova-Cuevas",28,Male,Hispanic/Latino
+342,"Steve Davis",47,Male,White
+343,"Christopher Davis",21,Male,Black
+344,"Thomas Lagano",52,Male,White
+345,"Jerand Ross",24,Male,Black
+346,"Ronald Branch",28,Male,White
+347,"Raymond Hopper",59,Male,White
+348,"Cayce Ditullio",39,Male,White
+349,"Richard Ferretti",52,Male,White
+350,"Gerry Thompson",40,Male,White
+351,"Matthew Tucker",18,Male,Unknown
+352,"Deresha Armstrong",26,Female,Black
+353,"Burt Johnson",38,Male,Black
+354,"Corey DiGiovanni",36,Male,White
+355,"Ronald Williams Jr",23,Male,Black
+356,"Alton Witchard",37,Male,Black
+357,"Nathan Cates",29,Male,White
+358,"Lionel Gibson",21,Male,Black
+359,"Jaffort Smith",33,Male,Black
+360,"Christian Bowman",23,Male,White
+361,"Michael Johnson",26,Male,White
+362,"Willie Tillman",33,Male,Black
+363,"Derek Sam",29,Male,White
+364,"Arthur Williams Jr",33,Male,Black
+365,"Jamie Stotts",29,Male,White
+366,"Stephen Schuster",35,Male,White
+367,"Arthur DaRosa",28,Male,Black
+368,"Sean Mondragon",24,Male,Black
+369,"Thongsoune Vilaysane",30,Male,"Asian/Pacific Islander"
+370,"Stephen Godfrey",69,Male,White
+371,"Ryan Johnson",34,Male,White
+372,"Francis Clark",43,Male,"Native American"
+373,"Jeffrey Sims",59,Male,White
+374,"James Simpson",31,Male,Black
+375,"Michael Gaffney",37,Male,White
+376,"Cody Marsh",19,Male,White
+377,"Scott Macomber",48,Male,White
+378,"Jabril Robinson",23,Male,Black
+379,"Dracy Pendleton",35,Male,White
+380,"Garry Conrad",46,Male,White
+381,"Luke Sanders",36,Male,White
+382,"Joseph Weatherby",44,Male,White
+383,"Israel Santos-Banos",19,Male,Hispanic/Latino
+384,"Jeremias Cruz",30,Male,Hispanic/Latino
+385,"Jessica Williams",29,Female,Black
+386,"Jaime Ide",35,Male,Hispanic/Latino
+387,"Kentrill Carraway",22,Male,Black
+388,"Timothy Stacy",36,Male,White
+389,"Reginald Dogan",53,Male,Black
+390,"Joshua Beebee",31,Male,Black
+391,"Mark Nelson",31,Male,"Native American"
+392,"Norman Campbell",63,Male,White
+393,"Travis Moore",38,Male,White
+394,"Michael Wilson Jr",27,Male,Black
+395,"Jorge Zambrano",35,Male,Hispanic/Latino
+396,"Bryson Fischer",28,Male,White
+397,"Verl Bedonie",26,Male,"Native American"
+398,"Vernell Bing Jr",22,Male,Black
+399,"Bodhi Phelps",22,Male,White
+400,"Leslie Goletz",57,Male,Unknown
+401,"Mario Montoya",31,Male,Hispanic/Latino
+402,"Derek Prophet",43,Male,White
+403,"Terry Frost",20,Male,Black
+404,"Eugene Smith",29,Male,White
+405,"Angel Navarro",25,Male,Hispanic/Latino
+406,"Warren Christian",43,Male,White
+407,"Devonte Gates",21,Male,Black
+408,"Fernando Castro",19,Male,Hispanic/Latino
+409,Unknown,45,Male,Hispanic/Latino
+410,Unknown,48,Female,Unknown
+411,"Terry Edwards",59,Male,White
+412,"Todd Burroughs",38,Male,White
+413,"Dennis Humphrey",58,Male,White
+414,"John Coffey",53,Male,White
+415,"Osee Calix",33,Male,Black
+416,"Robert Wickizer",70,Male,White
+417,"Dennis Hudson",50,Male,Black
+418,"Dionisio Garza III",25,Male,Hispanic/Latino
+419,"Donald Brown III",32,Male,White
+420,"Doll Pierre-Louis",24,Male,Black
+421,"Justin Addler",32,Male,White
+422,"Robert Diaz",28,Male,Hispanic/Latino
+423,"Alexander Larmon",44,Male,White
+424,"Nicholas Berger",36,Male,White
+425,Unknown,Unknown,Male,Unknown
+426,"Randy Nelson",49,Male,Black
+427,"Ernesto Carraman",41,Male,Hispanic/Latino
+428,"Scott Brunson",50,Male,White
+429,"Stephen Schenck",47,Male,White
+430,"Darius Robinson",41,Male,Black
+431,"Paul Gianelos",45,Male,White
+432,"Lawrence Kindel",33,Male,White
+433,"Wendell Celestine Jr",37,Male,Black
+434,"Alex Zoucha",31,Male,White
+435,"Torrey Robinson",35,Male,Black
+436,"Dallis Hernandez",22,Male,Unknown
+437,"Daniel Pigg",51,Male,White
+438,"Alice Goudie",64,Female,White
+439,"Michael Johnson",21,Male,Black
+440,"Ollie Brooks",64,Male,Black
+441,"Inocencio Cardenas Jr",38,Male,Hispanic/Latino
+442,"Jonathan Fowler",32,Male,White
+443,"Willie 'Meek' James",43,Male,Black
+444,"Rodney Smith",18,Male,Black
+445,"Daniel Shaham",31,Male,Unknown
+446,"Larry Stepp",31,Male,White
+447,"Hubert Burns Jr",34,Male,"Native American"
+448,"Joshua Smith",33,Male,White
+449,"Christopher Moran",31,Male,White
+450,"Demarco Rhymes",35,Male,Black
+451,"Nancy Friedrich",35,Female,White
+452,"Kalyp Rapoza",25,Male,"Asian/Pacific Islander"
+453,"Henry Green",23,Male,Black
+454,"Andrew Henson",25,Male,White
+455,"Travis Wood",24,Male,White
+456,"Willis Walker Jr",49,Male,Black
+457,"Jonathan Watson",46,Male,White
+458,"Richard Gonzalez",55,Male,Hispanic/Latino
+459,"Michael Roll",52,Male,White
+460,"William Jennings",49,Male,White
+461,"Omar Villagomez",21,Male,Hispanic/Latino
+462,"Weston Sites",15,Male,White
+463,"Carlos Garcia",43,Male,Unknown
+464,"Hope Elferdink",38,Female,White
+465,"James Nickol",38,Male,White
+466,"Clifford Tucker",68,Male,White
+467,"William 'David' Powell",63,Male,White
+468,"William Hollis",34,Male,White
+469,"John Brisco",52,Male,Black
+470,"Bobby Sanchez",32,Male,Hispanic/Latino
+471,"Juan Briseno-Ortega",50,Male,Hispanic/Latino
+472,Unknown,Unknown,Male,Hispanic/Latino
+473,"Clayton Millsaps",29,Male,White
+474,"Jesus Duran",31,Male,Hispanic/Latino
+475,"Omar Mateen",29,Male,Unknown
+476,"Daniel Edwards",23,Male,White
+477,"Lyndarius Witherspoon",27,Male,Black
+478,"John Williams",61,Male,Black
+479,"Michael Moore",18,Male,Black
+480,"Joshua Sciscm",33,Male,White
+481,"Edward Acquisto",80,Male,Hispanic/Latino
+482,"Noel Rodriguez",50,Male,Hispanic/Latino
+483,"Charles Todero",30,Male,White
+484,"Mohammad Moghaddam",54,Male,Arab-American
+485,"Kenneth Pointer",43,Male,White
+486,"Nicholas Ferro",47,Male,White
+487,"Fernando Geovanni LLanez",22,Male,Hispanic/Latino
+488,"Russell Rosser",43,Male,White
+489,"Ronald Delfino",21,Male,Hispanic/Latino
+490,"Michael Rasmussen",38,Male,White
+491,"Peter Grandpre",36,Male,White
+492,"Nicholas Damon",30,Male,Unknown
+493,"John Anderson",59,Male,White
+494,"William Hennessey",34,Male,White
+495,"Sergey Makarenko",17,Male,White
+496,"Antwun Shumpert",37,Male,Black
+497,"Rashaun Lloyd",25,Male,Black
+498,"Anthony Ford",30,Male,White
+499,"Clarence Howard",25,Male,Black
+500,"Raufeal Bostick",23,Male,Black
+501,"Devin Scott",20,Male,White
+502,"Lane Lesko",19,Male,White
+503,"Pedro Cruz-Amado",24,Male,Hispanic/Latino
+504,"Jeffrey Hyde",50,Male,White
+505,"Isaiah Core III",20,Male,Black
+506,"Roger Ponce",37,Male,Hispanic/Latino
+507,"Josiah Williams",25,Male,White
+508,"Deravis 'Caine' Rogers",22,Male,Black
+509,"Jay Anderson",25,Male,Black
+510,"Quencezola Splunge",44,Male,Black
+511,"Antonio Richardson",46,Male,Black
+512,"Shaun Walke",31,Male,White
+513,"Angelo Brown",35,Male,Black
+514,"Ismael Miranda",36,Male,Black
+515,"Joshua Herrera",29,Male,Hispanic/Latino
+516,"Rodrigo Guardiola",36,Male,Hispanic/Latino
+517,"Waldemar Bogusiewicz",59,Male,White
+518,"Dylan Noble",19,Male,White
+519,"Christy Sheats",42,Female,White
+520,"Miguel Chavez-Angles",42,Male,Hispanic/Latino
+521,"Randy Blecher",50,Male,White
+522,"Donte Johnson",30,Male,Black
+523,"Germichael Kennedy",22,Male,Black
+524,"Terry Maurer",51,Male,White
+525,"Daniel Reyes",27,Male,Hispanic/Latino
+526,"Blake Peacock",32,Male,White
+527,"Travis Vierra",26,Male,White
+528,"Michael Disbrowe",28,Male,White
+529,"Raymond Hutson",25,Male,White
+530,"Sherman Evans",63,Male,Black
+531,"Walden Dang",61,Male,Unknown
+532,"Barry Prak",27,Male,"Asian/Pacific Islander"
+533,"Jessie Mills",30,Male,White
+534,"Tyrone Reado",50,Male,Black
+535,"Jasen Ramirez",44,Male,Unknown
+536,"Kawme Patrick",25,Male,Black
+537,"Michael Schumacher",41,Male,White
+538,"Tristan Vilters",24,Male,White
+539,"Steven McQueen",30,Male,White
+540,"Alexis Mishtowt",63,Male,White
+541,"Helmut Wihowski",58,Male,Unknown
+542,"Jonathan Justice",50,Male,White
+543,"Jai Williams",35,Male,Black
+544,"Lafayette Evans",37,Male,Black
+545,"Keith Bursey",31,Male,Black
+546,"Jamie Lee Brave Heart",28,Male,"Native American"
+547,"Brian Steen",40,Male,White
+548,"Mylynda Martinez",27,Female,Hispanic/Latino
+549,"Kimberly King",46,Female,White
+550,"David Anderson",36,Male,White
+551,"Shannon Labit",40,Male,White
+552,"Raul Saavedra-Vargas",24,Male,Hispanic/Latino
+553,"Pedro Villanueva",19,Male,Hispanic/Latino
+554,"Anthony Nunez",18,Male,Hispanic/Latino
+555,"Delrawn Small",37,Male,Black
+556,Unknown,29,Male,Black
+557,"Sidney Washington Jr",21,Male,Black
+558,"Alton Sterling",37,Male,Black
+559,"William Patterson",34,Male,White
+560,"Sam Newby",49,Male,White
+561,"Philando Castile",32,Male,Black
+562,"Joshua Bolster",29,Male,White
+563,"Melissa Ventura",24,Female,Hispanic/Latino
+564,"Thomas Vandemark",65,Male,White
+565,"Victor Sigala",19,Male,Hispanic/Latino
+566,"Vinson Ramos",37,Male,Hispanic/Latino
+567,"Adam Smith",33,Male,White
+568,"Micah Johnson",25,Male,Black
+569,"Earnest Fells",62,Male,Black
+570,"Alva Braziel",38,Male,Black
+571,"Abraham Smith",30,Male,White
+572,"Andre Johnson",40,Male,Black
+573,"Tyler Gebhard",20,Male,Black
+574,"Joseph Mann",51,Male,Black
+575,"Orville Edwards",39,Male,Black
+576,"Jason Brooks",41,Male,Black
+577,"Pablo Medina",41,Male,Hispanic/Latino
+578,"Larry Gordon",44,Male,White
+579,"Fermin Valenzuela",32,Male,Hispanic/Latino
+580,"Mary Lená Pettiet",33,Female,White
+581,"Gary Porter",41,Male,Black
+582,"Benjamin Zeckovic",23,Male,White
+583,"Danny Cupps Jr",36,Male,White
+584,"Donald Myers",32,Male,White
+585,"Roger Bales",56,Male,White
+586,"Richard Dinneny",53,Male,White
+587,"Dayten Harper",33,Male,Black
+588,"Bobby Horne",63,Male,White
+589,"Billy Smith",31,Male,White
+590,"Cody Jarrett",26,Male,White
+591,"Jermaine Johnson",42,Male,Unknown
+592,"Kevin Higgins",37,Male,White
+593,"Michael Ramsey Jr",43,Male,White
+594,"Gavin Long",29,Male,Black
+595,"Andrew Esquivel",21,Male,Unknown
+596,"Patrick Fennell",57,Male,White
+597,"Jerry Brimer",56,Male,White
+598,"Patrick O'Rourke",50,Male,Unknown
+599,"Javier Gaona",31,Male,Hispanic/Latino
+600,"BJ Medeiros",36,Male,White
+601,"Derek Love",50,Male,Black
+602,"Paul Yacabitis",50,Male,White
+603,"Austin Howard",49,Male,Black
+604,"Bernard Wells III",31,Male,Black
+605,"Steven Longoria",34,Male,Hispanic/Latino
+606,"Robert Lourenco Jr",36,Male,White
+607,"Alvin Sylversmythe",29,Male,Unknown
+608,"Jamil Valladares",26,Male,Unknown
+609,"Jeffrey Tyson",33,Male,Black
+610,"Richard Risher Jr",18,Male,Black
+611,"Scot Minard",50,Male,White
+612,"Juan Duran",36,Male,Hispanic/Latino
+613,"Devon Martes",17,Male,Black
+614,"Dalvin Hollins",19,Male,Black
+615,"Ambrose Mecklenburg",20,Male,White
+616,"Michael Adams",33,Male,White
+617,"Dylan Liberti",24,Male,White
+618,"Saddam Trejeda-Campos",24,Male,Hispanic/Latino
+619,"Humberto Martinez",32,Male,Hispanic/Latino
+620,"Jesus Rael",31,Male,Hispanic/Latino
+621,"Paul O'Neal",18,Male,Black
+622,"Jorge Moreno-Aguirre",41,Male,Hispanic/Latino
+623,"Donnell Thompson Jr",27,Male,Black
+624,"Omar Gonzalez",36,Male,Hispanic/Latino
+625,"Jeffrey Smith",47,Male,Black
+626,"Amanda Bivens",40,Female,White
+627,"Melvin Faison",59,Male,White
+628,"Limichael Shine",18,Male,Unknown
+629,"John Casey",32,Male,White
+630,"Mario Torres",38,Male,Hispanic/Latino
+631,"Bryan Byrd",43,Male,White
+632,"Kenneth Bonanno",67,Male,White
+633,"Korryn Gaines",23,Female,Black
+634,"Richard London",22,Male,White
+635,"Preston Perez",48,Male,White
+636,"Matthew Conrad",34,Male,White
+637,"Adam Klimek",31,Male,White
+638,"Demarco Newman",43,Male,Black
+639,"William Bowers",51,Male,White
+640,"Benjamin Heaton",31,Male,White
+641,"Bradley Carey",54,Male,White
+642,"E.J. Walters Jr",69,Male,White
+643,"Johannes Wood",58,Male,White
+644,"Jamarion Robinson",26,Male,Black
+645,"James Quealy",53,Male,White
+646,"Jawari Porter",25,Male,Black
+647,"Earl 'Shaleek' Pinckney",20,Male,Black
+648,"Darnell Wicker",57,Male,Black
+649,"Juan Godines",34,Male,Hispanic/Latino
+650,"Michael McClurg",59,Male,White
+651,"Ronald Smith",45,Male,White
+652,"Mary Knowlton",73,Female,White
+653,"Jesse Romero",14,Male,Hispanic/Latino
+654,"Jeffrey 'Allen' Morris",44,Male,White
+655,"Marcus Sexton",22,Male,White
+656,"Ronald Robbibaro",30,Male,White
+657,"Anthony Edwards",25,Male,White
+658,"Jeff Martelli",59,Male,Unknown
+659,"Mark Sawaf",39,Male,White
+660,"Jesus Carillo",22,Male,Hispanic/Latino
+661,"Dominic Rollice",49,Male,White
+662,"Ruben Strand",38,Male,Unknown
+663,"Sylville Smith",23,Male,Black
+664,"Perry Heitman",53,Male,White
+665,"Kendrick Brown",18,Male,Unknown
+666,"Fred Barlow",61,Male,Black
+667,"Sergio Weick",33,Male,Hispanic/Latino
+668,"Jovany Martinez",29,Male,Hispanic/Latino
+669,"Danny Pirtle",42,Male,White
+670,"Michael Martin",36,Male,White
+671,"Carl Nivins",32,Male,White
+672,"Kenney Watkins",18,Male,Black
+673,"Colby Friday",30,Male,Black
+674,"Larry Kurtley Jr",53,Male,White
+675,"John O'Handley",55,Male,White
+676,"Omer Ismail Ali",27,Male,Black
+677,"Marcos Gastelum",24,Male,Hispanic/Latino
+678,"Francisco Villarreal",37,Male,Hispanic/Latino
+679,"James Jennings Jr",69,Male,White
+680,"David Fulton",59,Male,White
+681,"Joseph Weber",36,Male,White
+682,"Chad Irwin",40,Male,White
+683,"Jorge Ceniceros",22,Male,Hispanic/Latino
+684,"Marcelo Luna",40s,Male,Hispanic/Latino
+685,"Eric Soto",36,Male,White
+686,"Trenton Lohman",38,Male,White
+687,"Kole Knight",31,Male,White
+688,"Kyle Zimbelman",29,Male,White
+689,"David Klassen",29,Male,White
+690,"Todd Browning",54,Male,White
+691,"Brandon Coles",25,Male,Black
+692,"Pedro Montanez",71,Male,Hispanic/Latino
+693,"Daniel Harris",29,Male,White
+694,"Juan Torres",36,Male,Hispanic/Latino
+695,"Kelley Forte",34,Male,Black
+696,"Silivenusi Ravono",46,Male,"Asian/Pacific Islander"
+697,"Mistie Reynolds",33,Female,White
+698,"Elias Portillo",36,Male,Hispanic/Latino
+699,"William Charbonneau",43,Male,Unknown
+700,"Jeffrey Hosea",53,Male,White
+701,"Jerry Jackson",63,Male,Unknown
+702,"Donta Taylor",31,Male,Black
+703,"David Coborubio",32,Male,Hispanic/Latino
+704,"Angel Torres Jr",25,Male,Unknown
+705,"Terry Salazar",49,Male,Unknown
+706,"Matthew Gibbon",41,Male,White
+707,"Darrel Hetrick",82,Male,White
+708,"Justin Kulhanek-Derks",37,Male,White
+709,"Jaqwan Terry",24,Male,Black
+710,"Michael Peacor",56,Male,White
+711,"Alfred Toe",34,Male,Black
+712,"Michael Gaskill",63,Male,White
+713,"Paula Phillips",35,Female,Unknown
+714,"Justin Baker",36,Male,Unknown
+715,"Levonia Riggins",22,Male,Black
+716,"Lyle Blanchard",59,Male,White
+717,"James Richards",28,Male,Unknown
+718,"Gregory Mathis",36,Male,White
+719,"Michael Ferguson",21,Male,White
+720,"Ed Holup",60,Male,White
+721,"David Moya",31,Male,Unknown
+722,"James Burgess",63,Male,White
+723,"Bobby Buck",49,Male,White
+724,"James Stuart",39,Male,White
+725,"Kaylee Sawyer",23,Female,White
+726,"Manuel De La Cruz",26,Male,Hispanic/Latino
+727,"Caleb Douglas",18,Male,White
+728,"Joshua Quintero",23,Male,Hispanic/Latino
+729,"Richard Swihart",32,Male,Unknown
+730,"Joseph Moreno",38,Male,Hispanic/Latino
+731,"Randall Rodick",40,Male,Unknown
+732,"Michael Thompson Jr",38,Male,Black
+733,"Michael Musson",22,Male,White
+734,"Donny Daugherty",36,Male,Unknown
+735,"Cameron Ayers",25,Male,Unknown
+736,"Jerome Damon",25,Male,Black
+737,"Jeremiah Ramirez",Unknown,Male,Hispanic/Latino
+738,"Simon Gomez",44,Male,Unknown
+739,"Jose Romero",Unknown,Male,Hispanic/Latino
+740,"Cesar Garcia",35,Male,Hispanic/Latino
+741,"Moses Ruben",36,Male,Black
+742,"Steven Del Rio",31,Male,Hispanic/Latino
+743,"David Anderson",25,Male,White
+744,"Bernard Cottrell",65,Male,Unknown
+745,"Larry Whitehead",70,Male,White
+746,"Dylan Papa",25,Male,Unknown
+747,"Jesse Joynt",35,Male,White
+748,"Robert Brown",55,Male,Black
+749,"Thomas Sekscinski",38,Male,White
+750,"Sadiq Idris",25,Male,Black
+751,"Francis Perry",32,Male,White
+752,"Jose Torres",38,Male,Unknown
+753,"Ricardo Tenorio",32,Male,Hispanic/Latino
+754,"Travis Ell",64,Male,White
+755,"Gregory Frazier",56,Male,Black
+756,"Dennis Stanley",69,Male,White
+757,"Terrence Sterling",31,Male,Black
+758,"Markell Bivins",25,Male,Black
+759,"Eugene Craig",86,Male,Unknown
+760,"Christian Vargas",25,Male,Unknown
+761,"Tyre King",13,Male,Black
+762,"Morgan Crocker",34,Male,White
+763,"Robert Carrillo",32,Male,Hispanic/Latino
+764,"Terrill Thomas",38,Male,Black
+765,"Cody Franklin",20,Male,White
+766,"Nikki Bascom",31,Female,White
+767,"Donald Degraw",58,Male,White
+768,"Timothy McMillan",38,Male,White
+769,"Dustin Jones",32,Male,White
+770,"Joseph Schlosser",69,Male,White
+771,"Thomas Mone III",46,Male,White
+772,"Jesse Beshaw",29,Male,White
+773,"Nicholas Glenn",25,Male,Black
+774,"Terence Crutcher",40,Male,Black
+775,"Robert Young",45,Male,Unknown
+776,"William Ryan",55,Male,Unknown
+777,"Lucas Anderson",29,Male,White
+778,"Robert Duh",42,Male,Unknown
+779,"Dahir Adan",22,Male,Black
+780,"Adrian Shaffer",37,Male,White
+781,"Philip Hasan",61,Male,Unknown
+782,"Jeremy Swenson",30,Male,White
+783,"Michelle Miller",46,Female,White
+784,"Joshua Scott",22,Male,White
+785,"Charles Dove",35,Male,White
+786,"Michael Goodale",23,Male,Unknown
+787,"Keith Scott",43,Male,Black
+788,"Sandy Duke",43,Male,White
+789,"Thomas Tucker Jr",49,Male,White
+790,"Austin Baier",23,Male,White
+791,"Jesse Attaway",41,Male,White
+792,"Oddis Colvin Jr",33,Male,Black
+793,"Christopher Contreras",30,Male,Unknown
+794,"Cody Lafont",25,Male,White
+795,"Leeland White",32,Male,White
+796,"Anthony Bauer",52,Male,White
+797,"Nathan DeSai",46,Male,Unknown
+798,"Jamie Lewis",48,Male,Unknown
+799,"Tawon Boyd",21,Male,Black
+800,"Alfred Olango",30,Male,Black
+801,"Gary Lafon",56,Male,White
+802,"Christopher Sowell",32,Male,Black
+803,"Johnathan Lozano-Murillo",28,Male,Hispanic/Latino
+804,"Jeffrey Cave",53,Male,White
+805,"Jacquarius Robinson",20,Male,Unknown
+806,"Najier Salaam",18,Male,Unknown
+807,"George Richards-Meyers",18,Male,Unknown
+808,"Richard Parent",37,Male,White
+809,"Douglas Rainey",32,Male,Black
+810,"Clayton Baker",38,Male,White
+811,"Joshua Perry",28,Male,Unknown
+812,"Carnell Snell Jr",18,Male,Black
+813,"Donte Jones",36,Male,Black
+814,"Robert Dapkus",57,Male,Unknown
+815,"John Fetter",49,Male,Unknown
+816,Unknown,Unknown,Unknown,Unknown
+817,"Isaias Salgado",31,Male,Hispanic/Latino
+818,"Zachary Sutton",26,Male,White

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+<div class="jumbotron text-center vertical-center">
+    <div class="container ">
+        <h1>Police Killings and Crime Rates</h1>
+        <h2>Police Related Killings in the United States</h2>
+        <form id = "target" action = "" method = "post" name = "Search"> 
+            {{ form.csrf_token }} 
+            {{ form.search(size = 35, placeholder = "Search by a victims name, or a location...") }} {{ form.search_by() }}
+            <input type="submit" value = "Search">
+            <a href="/search">Advanced Search</a>
+        </form>
+        <small><em>Results shown below.</em></small>
+    </div>
+</div>
+<div class="container below-header">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>About This Site</h2>
+            <p>In recent times, it has come to light that people who are put in position of power, and great responsibility take advantage of their authority over the common civilian. With technology on the rise, people have the ability to document this abuse of power. This is a collection of all known police related deaths. The data that populates this website is updated every day to keep track of all police related events. On this page you can do a basic search of someone's name or a location (i.e. cities: Newark, Los Angeles, Chicago | states: NJ, PA, CA, WA). <br>Please check out the statistics page for more information on states and their crime rates.<br><strong>Note: On this page, you CANNOT search a city and state during the same search.</strong></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="results">
+                <em><span id="num-results"></span></em>
+            </div>
+        </div>
+    </div>
+    <span id="apnd"></span>
+</div>
+</body>
+{% endblock %}

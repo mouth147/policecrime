@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+<div class="container not-homepage">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>Statistics</h2>
+        </div>
+    </div>
+
+    <div class="row stats">
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <h3 class="text-center">Top 10 States Killings By Police</h3>
+            <!-- EDIT 
+            <ol>
+            {% for city in cities %}
+                <li>{{ city[0] }}, {{ city[1] }}</li>
+            {% endfor %}
+            </ol>
+            -->
+            <div id="chart">
+                <embed type="image/svg+xml" src = {{ state_chart|safe }} />
+            </div>
+        </div>
+    </div><!-- end row -->
+
+    <div class="row stats">
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <h3 class="text-center">Top 10 States with Highest Crime Rate</h3>
+            <div id="chart">
+                <embed type="image/svg+xml" src= {{ violent_chart | safe }} />
+            </div>
+        </div><!-- end col-12 -->
+    </div><!-- end row-->
+
+    <div class="row stats">
+        <div class="col-md-6 text-center">
+            <h3 class="text-center">Weapons</h3>
+            <div id="chart">
+                <embed type="image/svg+xml" src = {{ weapons_chart | safe }} />
+            </div>
+        </div><!-- end col -->
+
+        <div class="col-md-6 text-center">
+            <h3 class="text-center">Races</h3>
+            <div id="chart">
+                <embed type="image/svg+xml" src = {{ races_chart | safe }} />
+            </div>
+        </div><!-- end col -->
+    </div><!-- end row -->
+
+    <div class="row stats">
+        <div class="col-md-4 text-center">
+            <h4 class="text-center">10 Deadliest Law Enforcement Agencies</h4>
+            <ol>
+            {% for agency in agencies %}
+                <li> {{ agency[0] }}</li>
+            {% endfor %}
+            </ol>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h3 class="text-center">Top Ages Killed</h3>
+            <ol>
+            {% for age in ages %}
+                <li> {{ age[0] }} </li>
+            {% endfor %}
+            </ol>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h4 class="text-center">Average Age Killed</h4>
+            {% for age in avg %}
+                <p> {{ age[0] }} </p>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row stats">
+
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <h3 class="text-center">Armed vs. Unarmed</h3>
+            <div id="chart">
+                <embed type="image/svg+xml" src = {{ armed_chart | safe }} />
+            </div>
+            <br>
+            <!-- EDIT
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Armed</p>
+                    <p>{{ armed[0][0] * 100 }}%</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Unarmed</p>
+                    <p>{{ armed[0][1] * 100 }}%</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Unknown</p>
+                    <p>{{ armed[0][2] * 100 }}%</p>
+                </div>
+            </div> END ROW -->
+        </div><!-- end col-md-6 -->
+    </div><!-- end row -->
+</div>
+
+</body>
+
+{% endblock %}

@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+    <div class="container not-homepage">
+        <div class="row stats">
+            <div class="col-md-12 text-center">
+                <h2>Advanced Search</h2>
+                <p>Search for Victims with a more advanced search.</p>
+            </div><!-- col-md-12 header -->
+        </div><!-- end row -->
+        <form method="POST">
+        {{ form.crsf_token }}
+        <div class="row stats">
+            <div class="col-md-1 text-center">
+                <h4>State</h4>
+                {{ form.state() }}
+            </div><!-- end state -->
+
+            <div class="col-md-2 text-center">
+                <h4>Gender</h4>
+                {{ form.gender() }}
+            </div><!-- end gender -->
+
+            <div class="col-md-2 text-center">
+                <h4>Classification</h4>
+                {{ form.classification() }}
+            </div><!-- end classification -->
+            
+            <div class="col-md-2 text-center">
+                <h4>Race</h4>
+                {{ form.race() }}
+            </div><!-- end race -->
+            
+            <div class="col-md-2 text-center">
+                <h4>Armed</h4>
+                {{ form.armed() }}
+            </div><!-- end armed -->
+
+            <div class="col-md-2 text-center">
+                <h4>Ages Between</h4>
+                {{ form.min_age(placeholder="Minimum age...") }} and
+                {{ form.max_age(placeholder="Maximum age...") }}
+            </div><!-- end ages -->
+        </div><!--row -->
+        <div class="row stats">
+            <div class="col-md-12 text-center">
+                {{ form.submit() }}
+                <br><br>
+            </div><!-- end col -->
+        </div><!-- end row -->
+        </form>
+
+        <div class="row stats">
+            <div class="col-md-6 text-center">
+                <h3>Compare Weapons</h3>
+                <p>Compare the amount of weapons that were wielded by each victim right before they were killed.</p>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                    <form method="POST">
+                        {{ weapons_form.weapons() }}
+                        <br>
+                        {{ weapons_form.submit() }}
+                    </form>
+                    </div><!-- end col-md-12 -->
+                </div><!-- end row -->
+            </div><!-- end col-md6 -->
+            <div class="col-md-6 text-center">
+                <h3>Compare Races</h3>
+                <p>Compare each individual race and how many have been killed.</p>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                    <form method="POST">
+                        {{ races_form.race() }}
+                        <br>
+                        {{ races_form.submit() }}
+                    </form>
+                    </div><!-- end col-md-12 -->
+                </div><!-- end row -->
+            </div><!-- end col-md-6 -->
+        </div><!-- end row -->
+
+        <div class="row stats">
+            <div class="col-md-12 text-center">
+                <h3>Comparing States and Their Crime Rates</h3>
+                <p>Compare multiple states by holding CTRL/CMD and clicking each state. You have the option of comparing each murder rate, assault rate, killing count, etc.<strong>Note: The result is a bar graph so to get a readable graph, try to limit your results between 10-15.</strong></p>
+            </div><!-- end col-md-12 -->
+        </div><!-- end row -->
+        <form method="POST">
+        <div class="row stats">
+            <div class="col-md-3 text-center">
+                <p>Select each state you'd like to compare.</p>
+                {{ state_form.states() }}
+            </div>
+
+            <div class="col-md-3 text-center">
+                <p>Select the statistics of each state you'd like to compare.</p>
+                {{ state_form.compare() }}
+            </div>
+
+            <div class="col-md-3 text-center">
+                <p>Sort by the characteristic of which you're comparing.</p>
+                {{ state_form.sort() }}
+            </div>
+
+            <div class="col-md-3 text-center">
+                <p>Limit your results</p>
+                {{ state_form.limit() }}
+            </div>
+        </div><!-- end row -->
+        <div class="row stats">
+            <div class="col-md-12 text-center">
+                {{ state_form.submit() }}
+            </div>
+            <br><br>
+        </div><!-- end row -->
+        </form>
+
+    </div><!-- end div container not-homepage -->
+</body>
+{% endblock %}

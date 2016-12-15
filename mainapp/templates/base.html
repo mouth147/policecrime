@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Header Font -->
+        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet"> 
+
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="../static/css/style.css">
+
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- pyGal -->
+         <script type="text/javascript" src="http://kozea.github.com/pygal.js/javascripts/svg.jquery.js"></script>
+         <script type="text/javascript" src="http://kozea.github.com/pygal.js/javascripts/pygal-tooltips.js"></script>
+
+        <!-- Function to make results appear on same page -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#target').submit(function() {
+                    $('#apnd').fadeOut(500, function() {
+                        $('footer').fadeOut(500, function() {
+                            $('footer').fadeIn(500);
+                            });
+                    $.getJSON('/_background_process', {
+                        query: $('#search').val(),
+                        by: $('#search_by').val()
+                    }, function(data) {
+                        var j = 0;
+                        $('#num-results').fadeOut(250, function() {
+                        if (data.length == 1) {
+                            $('#num-results').text('1 result for ' + $('#search').val() + '. ').fadeIn(500);
+                        } else {
+                            $('#num-results').text(data.length + ' results for ' + $('#search').val() + '. ').fadeIn(500);
+                        }
+                        });
+                        $('#apnd').text("");
+                        $.each(data, function(i, value){
+                            if (i % 3 == 0) {
+                            j++;
+                            $('#apnd').append('<div class="row" id="result' + j + '"></div>');
+                            var column = '<div class="col-md-3 col-md-offset-2">';
+                            } else {
+                            var column ='<div class="col-md-3">';
+                            }
+                            column += '<br><p><strong>Name:</strong> ' + value[0] + '<br><strong>Age:</strong> ' + value[1] + '<br><strong>Gender:</strong> ' + value[2] + '<br><strong>Race:</strong> ' + value[3] + '<br><strong>Date:</strong> ' + value[4] + ' ' + value[5] + ' ' + value[6] + '<br><strong>Address:</strong> ' + value[7] + '<br><strong>City:</strong> ' + value[8] + '<br><strong>State:</strong> ' + value[9] + '<br><strong>Classification:</strong> ' + value[10] + '<br><strong>Police Department:</strong> ' + value[11] + '<br><strong>Armed:</strong> ' + value[12] + '<br></p></div>';
+                            $('#result' + j).last().append(column);
+
+                        });
+                    });
+                    $('#apnd').fadeIn(500);
+                    });
+                  return false;
+                  });  
+            });
+        </script>
+    </head>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#thenavbar" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="thenavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/statistics">Statistics</a></li>
+                    <li><a href="/search">Advanced Search</a></li>
+                </ul>
+            </div><!-- navbar collapse -->
+        </div> <!-- Container Fluid -->
+    </nav>
+    <div id="main-container">
+    {% block content %}
+    {% endblock %}
+    </div>
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <ul class="footer-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/statistics">Statistics</a></li>
+                    <li><a href="/search">Advanced Search</a></li>
+                </ul>
+                <br><br>
+                <p>This project is open source at <a href="http://www.github.com/mouth147">www.github.com/mouth147</a></p>
+                <p>Data provided by <a href="https://www.theguardian.com/us-news/ng-interactive/2015/jun/01/about-the-counted">The Counted</a> and <a href="http://demographicdata.org/facts-and-figures/gun-ownership-statistics/">Demographic Data</a>.</p>
+            </div>
+        </div>
+    </footer>
+</html>

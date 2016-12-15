@@ -1,0 +1,203 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color:#222;
+  flex-direction:column;
+}
+
+option, input, select, form {
+  color:#000;
+}
+
+.stats {
+  background-color:#111111;
+  color:#FFF;
+}
+
+td {
+  padding:0px 15px;
+  color: #FFF;
+}
+
+#main-container {
+  flex: 1;
+}
+
+.below-header {
+  color:#fff;
+  background-color:#222;
+}
+
+h2, h3, h4 {
+  color: #FFe44d;
+  font-family: 'Bungee', cursive;
+}
+
+.vertical-center {
+  min-height: 50%;
+  min-height: 65vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  background-image: url("../img/crime-min.jpg");
+  margin-top: 50px;
+  min-height:300px;
+}
+
+.not-homepage {
+  margin-top: 50px;
+}
+
+.jumbotron .container > h1, .jumbotron .container > h2 {
+  color: #FFF;
+  font-family: 'Bungee', cursive;
+}
+
+.results {
+  height:25px;
+}
+
+#num-results {
+  color:#FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #505050;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-family: 'Lato', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+  display: inline-block;
+  float: center;
+}
+
+.footer a {
+  padding: 16px;
+  color: #9f9fdf;
+}
+
+.navbar-default {
+	  background-color: #222222;
+	    border-color: #03010e;
+    }
+    .navbar-default .navbar-brand {
+	      color: #ecf0f1;
+      }
+      .navbar-default .navbar-brand:hover,
+      .navbar-default .navbar-brand:focus {
+	        color: #928c9e;
+	}
+	.navbar-default .navbar-text {
+		  color: #ecf0f1;
+	  }
+	  .navbar-default .navbar-nav > li > a {
+		    color: #ecf0f1;
+	    }
+	    .navbar-default .navbar-nav > li > a:hover,
+	    .navbar-default .navbar-nav > li > a:focus {
+		      color: #928c9e;
+	      }
+	      .navbar-default .navbar-nav > li > .dropdown-menu {
+		        background-color: #222222;
+		}
+		.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+			  color: #ecf0f1;
+		  }
+		  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+		  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+			    color: #928c9e;
+			      background-color: #03010e;
+		      }
+		      .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+			        background-color: #03010e;
+			}
+			.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+			.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+			.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+				  color: #928c9e;
+				    background-color: #03010e;
+			    }
+			    .navbar-default .navbar-nav > .active > a,
+			    .navbar-default .navbar-nav > .active > a:hover,
+			    .navbar-default .navbar-nav > .active > a:focus {
+				      color: #928c9e;
+				        background-color: #03010e;
+				}
+				.navbar-default .navbar-nav > .open > a,
+				.navbar-default .navbar-nav > .open > a:hover,
+				.navbar-default .navbar-nav > .open > a:focus {
+					  color: #928c9e;
+					    background-color: #03010e;
+				    }
+				    .navbar-default .navbar-toggle {
+					      border-color: #03010e;
+				      }
+				      .navbar-default .navbar-toggle:hover,
+				      .navbar-default .navbar-toggle:focus {
+					        background-color: #03010e;
+					}
+					.navbar-default .navbar-toggle .icon-bar {
+						  background-color: #ecf0f1;
+					  }
+					  .navbar-default .navbar-collapse,
+					  .navbar-default .navbar-form {
+						    border-color: #ecf0f1;
+					    }
+					    .navbar-default .navbar-link {
+						      color: #ecf0f1;
+					      }
+					      .navbar-default .navbar-link:hover {
+						        color: #928c9e;
+						}
+
+						@media (max-width: 767px) {
+							  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+								      color: #ecf0f1;
+								        }
+									  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+									    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+										        color: #928c9e;
+											  }
+											    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+											      .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+											        .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+													    color: #928c9e;
+													        background-color: #03010e;
+														  }
+													  }

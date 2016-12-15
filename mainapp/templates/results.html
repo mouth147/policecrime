@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+    <div class="container not-homepage">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Results</h2>
+                {% if victims %}
+                <p style="color:#FFF;">{{ victims | count }} results.</p>
+                {% endif %}
+                <a href="/search">Return to Search</a>
+            </div><!-- end col-md-12 -->
+        </div><!-- end row -->
+        {% if chart %}
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div id="chart">
+                    <embed type="image/svg+xml" src = {{ chart | safe }} />
+                </div><!-- end chart -->
+            </div><!-- end col-md-10 for chart -->
+        </div><!-- end row -->
+        {% elif victims %}
+        {% for row in victims | batch(3) %}
+        <div class="row">
+            {% for person in row %}
+            <div class="col-md-4" style="color:#FFF;">
+                <p><strong>Name:</strong> {{ person[0] }}<br>
+                <strong>Age:</strong> {{ person[1] }}<br>
+                <strong>Gender:</strong> {{ person[2] }}<br>
+                <strong>Race:</strong> {{ person[3] }}<br>
+                <strong>Date:</strong> {{ person[4] }} {{ person[5] }} {{ person[6] }}<br>
+                <strong>Address:</strong> {{ person[7] }}<br>
+                <strong>City:</strong> {{ person[8] }}<br>
+                <strong>State:</strong> {{ person[9] }}<br>
+                <strong>Classification:</strong> {{ person[10] }}<br>
+                <strong>Police Department:</strong> {{ person[11] }}<br>
+                <strong>Armed:</strong> {{ person[12] }}<br></p>
+            </div>
+            {% endfor %}
+        </div><br>
+        {% endfor %}
+
+        {% endif %}
+    </div><!-- end container not-homepage-->
+</body>
+
+{% endblock %}

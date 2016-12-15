@@ -1,0 +1,815 @@
+id,address,city,state
+1,"4200 6th Ave","San Diego",CA
+2,"2600 Watson Dr",Charlotte,NC
+3,"100 Washington St",Livingston,MT
+4,"3600 NW 42nd St","Oklahoma City",OK
+5,"Gene Stanley Rd",Ragley,LA
+6,"151 S Bishop Ave","Clifton Heights",PA
+7,"93rd Ave SE",Olympia,WA
+8,"200 Boulder Creek Dr",Redding,CA
+9,"2000 Ezekiel Ave",Zion,IL
+10,"2601 Don Pedro Rd",Ceres,CA
+11,"Mary St","Johnson City",TN
+12,US-380,Carrizozo,NM
+13,"",Owensboro,KY
+14,"8900 Rose Valley Rd",Kelso,WA
+15,"600 Lombard Rd","Rising Sun",MD
+16,"4500 Bartow Carver Rd SE",Acworth,GA
+17,"3800 Lincoln Dr","Lake Geneva",WI
+18,"Rapid Run Rd and Sunset Ave",Cincinnati,OH
+19,"W 26th Ave and Zuni St",Denver,CO
+20,"San Fernando Rd and Hubbard St","San Fernando",CA
+21,"Rebecca Dr",Duncannon,PA
+22,"Arctic Blvd and W 32nd Ave",Anchorage,AK
+23,"1100 Land St",Norfolk,VA
+24,"111 Seba St",Hurst,IL
+25,"805 W 1st St","Cle Elum",WA
+26,"Shangri-La Dr and Nathan Hill Dr","Santa Clarita",CA
+27,"300 S Pierce St","El Cajon",CA
+28,"8800 Norwich Ave","Los Angeles",CA
+29,"1800 Nichols Canyon Rd","Los Angeles",CA
+30,"SW Ave D and SW 9th St","Belle Glade",FL
+31,"Ward Ave",Elkins,WV
+32,"3012 Crater Lake Hwy",Medford,OR
+33,"10100 SW Murray Blvd",Beaverton,OR
+34,"164 Christopher St","Rainbow City",AL
+35,"3517 S Grand Blvd","St Louis",MO
+36,"5600 Enrique Barerra Pkwy","San Antonio",TX
+37,"N Oracle Rd and W Roger Rd",Tucson,AZ
+38,"",Petroleum,WV
+39,"2167 E 4500 S",Holladay,UT
+40,"6530 E Superstition Springs Blvd",Mesa,AZ
+41,"3800 Amy Pl","Union City",CA
+42,"W Peoria Ave and N 19th Ave",Phoenix,AZ
+43,"Virginia Ave",Statesville,NC
+44,"1100 Riverwood Rd",Dallas,TX
+45,"Swissco Dr",Orlando,FL
+46,"180 Collier Dr",Sevierville,TN
+47,"3495 Madison Hwy",Valdosta,GA
+48,"US-231 and Inspirational Dr",Meridianville,AL
+49,"Louisiana Hwy 741","Port Barre",LA
+50,"",Harper,TX
+51,"27033 Northwestern Hwy",Southfield,MI
+52,US-69,Eufaula,OK
+53,"I-20 and Texas Hwy 70",Sweetwater,TX
+54,"1301 E 10th St","Sioux Falls",SD
+55,"900 Horseshoe Rd",Augusta,GA
+56,"Husky Trail",Warsaw,IN
+57,"1855 County Rd 701",Clanton,AL
+58,"S McCarran Blvd",Reno,NV
+59,"3200 Nicole St",Stockton,CA
+60,US-395,Burns,OR
+61,"Hubbard Dr",Dearborn,MI
+62,"800 South Parkway E",Memphis,TN
+63,"I-75 and Delk Rd",Marietta,GA
+64,"4000 Vista Ridge Ln",Alvarado,TX
+65,"Little Blakely Creek Rd",Jessieville,AR
+66,"Pocosin Rd",Latta,SC
+67,"3007 Cerrillos Rd","Santa Fe",NM
+68,"Grandview Dr","Lenoir City",TN
+69,"3600 S 67th St",Omaha,NE
+70,"3300 S Sawyer St",Tacoma,WA
+71,"Western Ave and Nichols Ave",Lynn,MA
+72,"Texas Hwy 183",Irving,TX
+73,"401 N Timberline Rd","Fort Collins",CO
+74,"Sheila Gail Ln",Rossville,GA
+75,"Old Decatur Rd",Saginaw,TX
+76,"Whitney Ave",Pittsburgh,PA
+77,"7300 S Paulina St",Chicago,IL
+78,"5300 Clay Terrace NE",Washington,DC
+79,"","Sugar Creek",MO
+80,"N 3rd St and W Main St",Immokalee,FL
+81,"36500 Bridgepointe Dr",Newark,CA
+82,"La Veta Dr NE and El Encanto Pl NE",Albuquerque,NM
+83,"10635 Folsom Blvd","Rancho Cordova",CA
+84,"","Okmulgee County",OK
+85,"Lee Road 443","Phenix City",AL
+86,"Chestnut Ave",Carbondale,PA
+87,"",Rosebud,SD
+88,"Baseline Rd and Cherry Rd",Ocala,FL
+89,"10362 Sahara Street","San Antonio",TX
+90,"2925 River Rd",Perry,OH
+91,"E Brown Rd and N 80th St",Mesa,AZ
+92,"Blue Ridge Blvd and E 113th St","Kansas City",MO
+93,"2100 Kanoelehua Ave",Hilo,HI
+94,"Weedpatch Hwy and Farmers Lane",Bakersfield,CA
+95,"Garcon Point Rd",Milton,FL
+96,"S El Paso St and E Overland Ave","El Paso",TX
+97,"300 Broadway St",Seaside,OR
+98,"1881 Rte 37 W","Manchester Township",NJ
+99,"3300 E 6th St","Los Angeles",CA
+100,"191 Angel Ln",Austin,AR
+101,"500 Whitethorne Ave",Columbus,OH
+102,"1200 Keystone Rd",Chester,PA
+103,"300 E Yager Ln",Austin,TX
+104,"","Union Grove",NC
+105,"Simon Bolivar Ave and Philip St","New Orleans",LA
+106,"1313 W Lido Pl",Anaheim,CA
+107,"325 Makaala St",Hilo,HI
+108,"3412 Merchant Boulevard",Abingdon,MD
+109,"6400 Ladd Ave",Louisville,KY
+110,"3600 E Nic Dr",Addis,LA
+111,"1600 W County Rd B",Roseville,MN
+112,"Texas Hwy 274 and County Rd 4044",Kemp,TX
+113,"7400 N Star St",Barrow,AK
+114,"2800 La Vida Dr",Lancaster,CA
+115,"Stelzer Rd",Columbus,OH
+116,"601 Old Park Rd",Maiden,NC
+117,"Stanwood St and Laredo St",Boston,MA
+118,"1313 Butternut St",Syracuse,NY
+119,"7501 Camp Bowie W Blvd","Fort Worth",TX
+120,"Texas Hwy 149",Beckville,TX
+121,"Fairfields Ave","Baton Rouge",LA
+122,"800 Penlan Rd",Arvonia,VA
+123,"4800 Merle Hay Rd",Urbandale,IA
+124,"6900 Kester Ave","Los Angeles",CA
+125,"S Ferris Avenue and Whittier Boulevard","East Los Angeles",CA
+126,"4800 Bookelia Cir",Bradenton,FL
+127,"22711 Oakcrest Cir","Yorba Linda",CA
+128,"22 Mountain Laurel Rd",Fairfield,CT
+129,"S Peachtree Ln",Republic,MO
+130,"1513 Reeves Ave",Mena,AR
+131,"Schalren Dr",Latham,NY
+132,"E 5th St",Jacksonville,FL
+133,"Madera Rd",Jal,NM
+134,"3300 Harrison Ave",Cheviot,OH
+135,"Ashford Ln",Commerce,GA
+136,"1100 E 4th St","Santa Ana",CA
+137,"100 W Reno Rd",Reno,TX
+138,"North St",Ogden,UT
+139,"Interstate 5",Lakewood,WA
+140,"231 County Rd 201",Iuka,MS
+141,"7501 Central Ave NW",Albuquerque,NM
+142,"2000 W Cris Ave",Anaheim,CA
+143,"W Manchester Blvd and Inglewood Ave",Inglewood,CA
+144,"2100 NE 85th St",Seattle,WA
+145,"W Indian School Rd and N 23rd Ave",Phoenix,AZ
+146,"Hawk Ln",Houston,AK
+147,"601 Truxtun Ave",Bakersfield,CA
+148,"2905 N Conway Ave",Mission,TX
+149,"Lowell Blvd and W 35th Ave",Denver,CO
+150,"Eastview Dr",Fairborn,OH
+151,"3200 Telephone Rd",Houston,TX
+152,"1709 S Side Rd",Elizabethton,TN
+153,"4800 W Sunnyside Ave",Glendale,AZ
+154,"22700 Jack Tone Rd",Ripon,CA
+155,"Terrace Ave","Baton Rouge",LA
+156,"1500 SW 20 St","Blue Springs",MO
+157,"36 Iris Dr",Bailey,CO
+158,"75th Ave and McDowell Rd",Phoenix,AZ
+159,"Alondra Blvd and Studebaker Rd",Norwalk,CA
+160,US-85,Evans,CO
+161,"3200 McElvy St",Montgomery,AL
+162,"1280 Lincoln Hwy","Silver Springs",NV
+163,"200 S Ridge Rd",Hesston,KS
+164,"Twilight Dr and Concourse Dr","Rapid City",SD
+165,"4049 Brambleton Ave",Roanoke,VA
+166,US-181,"San Antonio",TX
+167,"285 5th Ave",Ashville,AL
+168,"30 Main St","Rapid City",SD
+169,"Bragg St",Raleigh,NC
+170,"Mariposa Dr NE","Palm Bay",FL
+171,"508 Simmons Dr",Euless,TX
+172,"7300 Home of Grace Dr",Gautier,MS
+173,"Althea Ct","Bel Air",MD
+174,"S Lindsay Rd and E Warner Rd",Gilbert,AZ
+175,"3700 SE Concord Rd","Oak Grove",OR
+176,"Spickler Alley",Johnstown,PA
+177,"4600 Genesee St",Cheektowaga,NY
+178,"600 S 23rd St",Beaumont,TX
+179,"","Mt Ida",AR
+180,"Tweedy Blvd and Burtis St","South Gate",CA
+181,"3700 Lake Ave",Rochester,NY
+182,"E Rosser Ave and N 32nd St",Bismarck,ND
+183,"600 Alameda Rd",Azle,TX
+184,"504 SW Taylor St",Topeka,KS
+185,"S 3rd St and Martha St","San Jose",CA
+186,"S 1st St",Joliet,MT
+187,"700 KY-3094","East Bernstadt",KY
+188,"Swallowtail Ct",Tampa,FL
+189,"N Happy Valley Rd and W Texas St",Carlsbad,NM
+190,"Country Store Rd and US-70",Selma,NC
+191,"1200 Douglas Dr",Odessa,TX
+192,"Lemmon Dr",Reno,NV
+193,"Popps Ferry Bridge",Biloxi,MS
+194,"E 68th St and Orcutt Ave","Long Beach",CA
+195,"8950 I-25",Pueblo,CO
+196,"Chesapeake Blvd and Fishermans Rd",Norfolk,VA
+197,"SE 10th St",Rosalia,KS
+198,"5724 Thornton Ave",Newark,CA
+199,"Eastex Freeway Service Rd and Collingsworth St",Houston,TX
+200,"Parker St and Union St",Chester,PA
+201,"I-75 and Highway 321","Lenoir City",TN
+202,"3833 Cypress Creek Pkwy",Houston,TX
+203,"Sanford Rd",Piedmont,AL
+204,"100 S Glendale Ave",Glendale,CA
+205,"9600 NE 81st St",Vancouver,WA
+206,"101 E Benton St",Clinton,IL
+207,"Spring Valley Rd and Marsh Ln",Addison,TX
+208,"7600 Barlowe Rd",Landover,MD
+209,"3700 W Polk St",Chicago,IL
+210,"Armory Dr and N Main St",Russellville,KY
+211,"Holmes Ave and E 64th St","Los Angeles",CA
+212,"I-30 and Hulen","Fort Worth",TX
+213,"3300 Morgan Ave",Evansville,IN
+214,"20000 Ochoa Rd","Apple Valley",CA
+215,"300 E Pyron Ave","San Antonio",TX
+216,"Blewett Falls Rd",Rockingham,NC
+217,"2901 Minnesota Hwy 13",Burnsville,MN
+218,"3312 W Cherokee Ave",Tampa,FL
+219,"3117 Tacoma St",Charlotte,NC
+220,"11314 North Freeway",Houston,TX
+221,"Hoffman Ln",Byron,CA
+222,"9500 Shore Dr",Norfolk,VA
+223,"300 Neola St","Park Forest",IL
+224,"Dragline Rd",Nortonville,KY
+225,"3rd Ave",Covington,LA
+226,"600 Winston Churchill Dr",Hopewell,VA
+227,"310 Rudisill Blvd","Fort Wayne",IN
+228,"5800 SW 20th Ave",Gainesville,FL
+229,"Pennsylvania Turnpike","Fort Littleton",PA
+230,"101 College St",Burlington,VT
+231,"1400 Broad St",Greensburg,PA
+232,"119 Wedgemere Rd",Stamford,CT
+233,"Braehead Dr and Kinloch Dr",Fredericksburg,VA
+234,"8800 SW 183rd Terrace","Palmetto Bay",FL
+235,"Grant St",Thornton,CO
+236,"3400 Dillard Rd",Memphis,TN
+237,"E Division St",Braintree,MA
+238,"N Blackstone Ave",Fresno,CA
+239,"2600 E 8th St",Pueblo,CO
+240,"602 Orange St",Redlands,CA
+241,"Webster St",Pawtucket,RI
+242,"1701 Nw State Route 7","Blue Springs",MO
+243,"1600 Old Home Creek Rd",Grundy,VA
+244,"14500 Central Ave SW",Albuquerque,NM
+245,"11408 N 30th St",Tampa,FL
+246,"Robert M Grissom Pkwy and 21st Ave N","Myrtle Beach",SC
+247,"75 Cambridge St",Lowell,MA
+248,"700 S Aspen Ave",Roswell,NM
+249,"2644 Crepe Myrtle St",Kinston,NC
+250,"323 N Williamson Ave",Winslow,AZ
+251,"200 NW Hickory St","Lee's Summit",MO
+252,"14600 Ashland Drive",Splendora,TX
+253,"3200 Park St",Clearlake,CA
+254,"W Gantt Cir",Piedmont,SC
+255,"340th Ave and Highway 210",Aitkin,MN
+256,"6400 Northside Dr","East Los Angeles",CA
+257,"2910 N Boulevard",Richmond,VA
+258,"400 E Lanvale St",Baltimore,MD
+259,"1000 S Main St",Lockhart,TX
+260,"3001 E Business Loop 20",Odessa,TX
+261,"4645 W 38th St",Indianapolis,IN
+262,"2611 W Moholt Dr","Eau Claire",WI
+263,"508 West Ave",Austin,TX
+264,"Red Creek Rd",Notasulga,AL
+265,"2100 Minnehaha Ave",Minneapolis,MN
+266,"1001 N Rural St",Indianapolis,IN
+267,"24 Myron St","West Springfield",MA
+268,"1449 Monroe Hollow Rd","Oak Hill",OH
+269,"2020 26th Ave E",Bradenton,FL
+270,"287 Chaffin Ct",Gallatin,TN
+271,"14700 Lakeside St","Los Angeles",CA
+272,"Shotwell St","San Francisco",CA
+273,"L St and S 31st St",Omaha,NE
+274,"320 State Hwy 388",Gould,AR
+275,"7600 Prescott Way",Sacramento,CA
+276,"Breton Rd SE and Edington Dr SE",Kentwood,MI
+277,"2786 Commercial Blvd","Lake Hallie",WI
+278,"Somerset St","New Brunswick",NJ
+279,"Lance St",Modesto,CA
+280,"1400 Gabriel Garcia Marquez St","Los Angeles",CA
+281,"5700 N Park Ave",Philadelphia,PA
+282,"1061 Roberta Rd",Rotterdam,NY
+283,"3400 W Grenshaw St",Chicago,IL
+284,"2000 Paradise Rd","Las Vegas",NV
+285,"Bannock St and W 14th Ave Pkwy",Denver,CO
+286,"Rufus Bass Rd",Noma,FL
+287,"Knickerbocker Dr",Stockton,CA
+288,"Illinois Hwy 37",Benton,IL
+289,"Texas Hwy 71 and County Rd 305",Llano,TX
+290,"Post Oak Bridge Rd",Sparta,TN
+291,"1700 Getwell Rd",Memphis,TN
+292,"19th Ave and E Kansas Ave",McPherson,KS
+293,"4200 E Jackson St",Muncie,IN
+294,"300 SW Whitetail Dr",Cache,OK
+295,"300 W Heald Ave","Lake Elsinore",CA
+296,"26211 Illinois Route 173",Antioch,IL
+297,"3100 Wexford Pl",Dayton,OH
+298,"116th Ave and 135th St","South Ozone Park",NY
+299,"S East Ave and Almond St",Vineland,NJ
+300,"6th Ave",Troy,NY
+301,"7200 Tierra Taos Dr","El Paso",TX
+302,"3200 St Louis Ave","St Louis",MO
+303,"2415 Little Rock Rd",Charlotte,NC
+304,"6200 Springhill Ct",Greenbelt,MD
+305,"6400 Mableton Pkwy SW",Mableton,GA
+306,"1400 W Baltimore St",Baltimore,MD
+307,"US 278 and Alabama 79",Blountsville,AL
+308,"SW 180th Ave",Homestead,FL
+309,"1542 Arkansas Hwy 9",Perryville,AR
+310,"Broadway and Chelsea St",Everett,MA
+311,"1606 Efland Dr",Greensboro,NC
+312,"6600 MoPac Expy",Austin,TX
+313,"12 High Point Rd",Berne,NY
+314,"1175 S Arizona Avenue",Chandler,AZ
+315,"1900 10th Ave",Antigo,WI
+316,"Ave G and N 19th St","Fort Pierce",FL
+317,"1300 Church St",Norfolk,VA
+318,"1724 Beach Blvd",Gulfport,MS
+319,"422 E Blue Ridge Rd","East Flat Rock",NC
+320,"5800 Eubank Blvd NE",Albuquerque,NM
+321,"1300 Hawthorne Dr",Chesapeake,VA
+322,"480 Wadsworth Blvd",Lakewood,CO
+323,"US-90 and FM1104",Kingsbury,TX
+324,"7300 Tennyson St",Westminster,CO
+325,"3000 Green Oaks Cir NE",Atlanta,GA
+326,"NW 2nd St and NW 7th Ave",Miami,FL
+327,"Beltway 8",Houston,TX
+328,"100 S State St",Spokane,WA
+329,"10000 W Spring River St",Boise,ID
+330,"17742 MO-177",Jackson,MO
+331,"4500 S 3200 W","Spanish Fork",UT
+332,"N Gary Rd and E Empire Blvd","San Tan Valley",AZ
+333,"725 Gilbert St",Wasau,WI
+334,"Orange Blossom Trail and Carter St",Orlando,FL
+335,"Parthenia St and Orion Ave","Los Angeles",CA
+336,"El Dorado St and E Clay St",Stockton,CA
+337,"OH-309 and Co Rd 106",Kenton,OH
+338,"N8416 County Rd ES","East Troy",WI
+339,"200 James Moore Dr",Jackson,GA
+340,"6603 Church St",Riverdale,GA
+341,"2000 Colvett Rd",Alamo,TN
+342,"2600 E Delta Ave",Visalia,CA
+343,"21st Ave SW",Burien,WA
+344,"Overbrook Ave and Lancaster Ave",Philadelphia,PA
+345,"",Buffalo,MO
+346,"32600 Hislop Way",Temecula,CA
+347,"West Colonial Dr",Orlando,FL
+348,"N 76th St and W Mill Road",Milwaukee,WI
+349,"Westbank Expressway",Gretna,LA
+350,"119 Marie Ave",Weirton,WV
+351,"22nd St S and 21st Ave S","St Petersburg",FL
+352,"5700 123rd Ave NE","Lake Stevens",WA
+353,"Locust Ave and E 21st St","Long Beach",CA
+354,"Acker St E and Buffalo St","St Paul",MN
+355,"8011 Tucker Rd","St Martin",MS
+356,"4900 S Karlov Ave",Chicago,IL
+357,"E Sunbridge Dr",Fayetteville,AR
+358,"631 Main St","Presque Isle",ME
+359,"10929 Dizzy Dean Pl","El Paso",TX
+360,"Woden Rd and County Road 509",Nacogdoches,TX
+361,"7700 S Quatar Ct",Aurora,CO
+362,"2 Galleria Mall Dr #247",Taunton,MA
+363,"US-85 and 31st St",Evans,CO
+364,"Pagel Pl","San Diego",CA
+365,"",Byng,OK
+366,"400 Swan Lake Rd",Stockbridge,GA
+367,"3737 W McDowell Rd",Phoenix,AZ
+368,"1400 State Rte 415",Osteen,FL
+369,"9898 N Fast Elk St","Las Vegas",NV
+370,"999 Rosemont Ave N",Union,NJ
+371,"253 E State St",Jacksonville,FL
+372,"Bay St","Fall River",MA
+373,"1500 Cheryl Leigh Dr",Riverdale,GA
+374,"Shawnee National Forest",Eddyville,IL
+375,"810 8th Ave","New York",NY
+376,"799 99-97 Cutoff",Montague,CA
+377,"1617 S Service Road","West Sullivan",MO
+378,"7700 S 48th Ln",Phoenix,AZ
+379,"2140 N Las Vegas Blvd","North Las Vegas",NV
+380,"Shafter Ave and Elmira St","San Francisco",CA
+381,"Birdcage St","Citrus Heights",CA
+382,"NW 20th Ave and NW 76th St",Miami,FL
+383,"Kentucky Hwy 721",Fisty,KY
+384,"Wade Hampton Blvd",Taylors,SC
+385,"W Maple Rd and N 165th St",Omaha,NE
+386,"6630 Lumberjack Blvd",Flagstaff,AZ
+387,"1716 Westfield Church Rd",Chesterfield,SC
+388,"200 S 2nd St","Oregon City",OR
+389,"137 Golden Isles Dr","Hallandale Beach",FL
+390,"Watch St",Oxford,MA
+391,"Canyon Blvd and Broadway",Boulder,CO
+392,"S Milton Rd",Flagstaff,AZ
+393,"E 9th St",Jacksonville,FL
+394,"SE 189th Ave and Grant St",Gresham,OR
+395,I-49,Peculiar,MO
+396,"312 Western Skies Dr SE",Albuquerque,NM
+397,"North Western and Sheridan Avenues","Oklahoma City",OK
+398,"2692 Madison Rd",Cincinnati,OH
+399,"2100 Minnehaha Ave E","St Paul",MN
+400,I-25,Socorro,NM
+401,"16831 Torrence Ave",Lansing,IL
+402,"Eastgate St","East St Louis",IL
+403,"Fjord Dr",Solvang,CA
+404,"2434 SW Loop 410","San Antonio",TX
+405,"Old Spanish Trail",Sneads,FL
+406,"100 W Gimber St",Indianapolis,IN
+407,"Garrett Rd",Stoneville,NC
+408,"3900 Goodrich Avenue Northeast",Albuquerque,NM
+409,"100 Southeast Blvd",Clinton,NC
+410,"N Columbus Blvd and E Fairmount St",Tucson,AZ
+411,"SW Cheyenne Way",Tualatin,OR
+412,"53410 Old US Hwy 78",Eastaboga,AL
+413,"Memorial Dr",Houston,TX
+414,US-92,DeLand,FL
+415,"NW 167th St and NW 37th Ave","Miami Gardens",FL
+416,"4490 W Reformatory Rd",Pendleton,IN
+417,"E 7th St and S Lorena St","Los Angeles",CA
+418,"Interstate 40",Okemah,OK
+419,"59800 South Highway 97",Bend,OR
+420,"2020 N 75th Ave",Phoenix,AZ
+421,"700 Market St W",Athens,AL
+422,"1200 Crystal","San Antonio",TX
+423,"251 N 10th St",Salina,KS
+424,"8800 11th Ave",Hesperia,CA
+425,"201 W Oklahoma Ave",Anadarko,OK
+426,"3320 Annandale Rd","Falls Church",VA
+427,"Donop Rd and Old Corpus Christi Road",Elmendorf,TX
+428,"Biglow Dr and Gary Ave",Antioch,CA
+429,"600 W 22nd Ave",Bellevue,NE
+430,"9226 Dresden Ln","Port Richey",FL
+431,"Gauntlet Hall Ln",Davie,FL
+432,"Log Cabin Rd and Arthur Jackson Ln",Berea,KY
+433,"California Hwy 16",Plymouth,CA
+434,"2 Amlajack Blvd",Newnan,GA
+435,"1011 S Garnett Rd",Tulsa,OK
+436,"200 S 7th St",Donna,TX
+437,"Lesley Dr","College Park",GA
+438,"400 Chapel St",Norfolk,VA
+439,"7800 N Tryon St",Charlotte,NC
+440,"92 W Louie Rd",Montague,CA
+441,"1317 W 18th St",Muncie,IN
+442,"50 Homes Rd",Parker,AZ
+443,"E Jean Dr",Palmer,AK
+444,"5100 Skyline Blvd","Cape Coral",FL
+445,"Stephenson St",Eufaula,AL
+446,"Oak St","Fort Worth",TX
+447,"Kanoelehua Ave and E Kawailani St",Hilo,HI
+448,"Ontario St and Duxberry Ave",Columbus,OH
+449,"S Polk Ave and SW 13th St",Wagoner,OK
+450,"Federal Blvd and W 88th Ave",Westminster,CO
+451,"Gray St",Culpeper,VA
+452,"92-8691 Lotus Blossom Ln","Ocean View",HI
+453,"416 E 137th St","New York",NY
+454,"William H Natcher Pkwy","Bowling Green",KY
+455,"Interstate 75","Birch Run",MI
+456,"2300 W Main St",Turlock,CA
+457,I-5,Orland,CA
+458,"3500 Bellefontaine Ave","Kansas City",MO
+459,"McAllister Rd","Battle Creek",MI
+460,"900 E Philadelphia St",York,PA
+461,"200 Silver St",Ishpeming,MI
+462,"690 Swan Lake Rd",Stockbridge,GA
+463,"5th Ave S and 30th St S",Birmingham,AL
+464,"3700 Hwy 365","Port Arthur",TX
+465,"W 27th St",Pueblo,CO
+466,"2125 S 68th Ave",Yakima,WA
+467,"",Somerton,AZ
+468,"Estes Rd",Statesville,NC
+469,"5200 Corona Ave",Maywood,CA
+470,"1912 S Orange Ave",Orlando,FL
+471,"Summit Way","Eagle Mountain",UT
+472,"320 Monument Dr",Tupelo,MS
+473,"6958 Coral Hill Rd",Glasgow,KY
+474,"Stanton Rd and Wagner St",Mobile,AL
+475,"1st Ave and Sunset St",Schenectady,NY
+476,"Ford Farm Rd",Tiverton,RI
+477,"8711 Brynwood Dr",Boise,ID
+478,"N Madison Ave and Camby St",Greenwood,IN
+479,"4215 Canyon Dr",Amarillo,TX
+480,"NE 10th Ave and NE 219th St",Ridgefield,WA
+481,"N Outer Rd",Odessa,MO
+482,"2300 Proctor Valley Rd","Chula Vista",CA
+483,"E Pine St and Dawson Rd",Tulsa,OK
+484,"Central Ave and Unsner Blvd",Albuquerque,NM
+485,"US 141",Pembine,WI
+486,"604 S Clark St",Butte,MT
+487,"W 86th Ave and Sheridan Ct",Arvada,CO
+488,"7000 U.S. 20",Montpelier,OH
+489,"Jordan Ln NW",Huntsville,AL
+490,"Horton Ln",Carmichael,CA
+491,"900 Harrison St",Tupelo,MS
+492,"725 Randall Ave",Bronx,NY
+493,"","Fort Walton Beach",FL
+494,"Emerson Dr NW and St Johns Heritage Pkwy","Palm Bay",FL
+495,"20751 Whyte Hardee Blvd",Hardeeville,SC
+496,"Everglades Dr","Lake Havasu City",AZ
+497,"212 Greenfield Rd",Peterborough,NH
+498,"1300 E Stage Coach Trail",Lawndale,NC
+499,"E 1st St and N Fenway St",Casper,WY
+500,"Oporto Madrid Blvd and Sunrise Dr",Birmingham,AL
+501,"1000 Mulberry Pl",Wellington,FL
+502,"2622 Delta Dr","Colorado Springs",CO
+503,"2100 Monroe Dr NE",Atlanta,GA
+504,"9800 W Glendale Ave",Wauwatosa,WI
+505,"6851 Highway 301",Walls,MS
+506,"500 W Alma Ave",Flint,MI
+507,"2812 Nelius Rd",Bellville,TX
+508,"Pheasantwood Dr",Belleville,IL
+509,"Summer St and Oak St",Paterson,NJ
+510,"Fierro Rd",Hanover,NM
+511,"",Gainesville,GA
+512,"6082 96th Terrace","Pinellas Park",FL
+513,"E Shields Ave and N Armstrong Ave",Fresno,CA
+514,"6000 Remson Hollow Ln",Katy,TX
+515,"N Classen Blvd and NW 23rd St","Oklahoma City",OK
+516,"133 Neal St",Farmington,AR
+517,"1445 E Sibley Blvd",Dolton,IL
+518,"N 14th St",Lincoln,NE
+519,"8000 Clark Lake Rd",Clarklake,MI
+520,"High Street Ext",Thomaston,CT
+521,"307 Georgia Hwy 257",Cochran,GA
+522,"Laguna Pueblo",Laguna,NM
+523,"332 W 2nd St",Boone,IA
+524,"Delaware Route 1",Frederica,DE
+525,"100 Varnum St NE",Washington,DC
+526,"1212 Kinau St",Honolulu,HI
+527,"2800 E 15th St","Long Beach",CA
+528,"Kentucky Hwy 223","Flat Lick",KY
+529,"Luther Dr",Monroe,LA
+530,"302 S 5th St",Douglas,WY
+531,"1100 Lockhurst Rd",Columbus,OH
+532,"1300 Morrison St",Madison,WI
+533,"",Guffey,CO
+534,"11 Parmenter St",Cartersville,GA
+535,"200 Bird Mountain Rd",Landrum,SC
+536,"Stonewall Dr",Jackson,WI
+537,"1403 Bluff City Hwy",Bristol,TN
+538,"275 Deaverview Rd",Asheville,NC
+539,"1206 48th St","Fort Madison",IA
+540,"Slauson Ave and Brynhurst Ave","Los Angeles",CA
+541,US-18,"Pine Ridge",SD
+542,"W Osborn Rd and N 3rd Ave",Phoenix,AZ
+543,"Bluff Lake Rd and Cardinal Pines Dr",Mascotte,FL
+544,"4303 S 730 E",Murray,UT
+545,"620 McDonald St","New Iberia",LA
+546,"N Virginia St and E Plaza St",Reno,NV
+547,"100 N Pritchard Ave",Fullerton,CA
+548,"900 Feller Ave","San Jose",CA
+549,"Atlantic Ave",Brooklyn,NY
+550,"12531 Texas Hwy 34",Scurry,TX
+551,"4900 Quarles St NE",Washington,DC
+552,"2112 N Foster Dr","Baton Rouge",LA
+553,"Waltham Rd","North Charleston",SC
+554,"Moraga Rd",Temecula,CA
+555,"Larpenteur Ave W and St Mary's St","Falcon Heights",MN
+556,"Oregon Hwy 22",Salem,OR
+557,"800 S Avenue C",Yuma,AZ
+558,"","Rush Springs",OK
+559,"500 N Azusa Ave",Covina,CA
+560,"7120 Atlantic Ave",Bell,CA
+561,"500 Helm Ave",Clovis,CA
+562,"Main St",Dallas,TX
+563,"700 King St",Selma,AL
+564,"Cullen Blvd",Houston,TX
+565,"N 7th Ave and E Rillito St",Tucson,AZ
+566,"E 10th St and Norris Dr","Broken Bow",OK
+567,"",Lakeshire,MO
+568,"Del Paso Blvd",Sacramento,CA
+569,"78th St",Brooklyn,NY
+570,"Gaty Ave and N 16th St","East St Louis",IL
+571,"8600 Wickham Rd",Romulus,MI
+572,"811 Port St","St Joseph",MI
+573,"2600 W Broadway",Anaheim,CA
+574,"Texas Hwy 243 and Texas Hwy 64",Canton,TX
+575,"Gifford St",Syracuse,NY
+576,"400 Rodeo Pl",Anchorage,AK
+577,"5200 Lewisburg Rd",Birmingham,AL
+578,"E Cir View Dr and N Clearview Dr",Flagstaff,AZ
+579,"East South Avenue","Ponca City",OK
+580,"Overlook Dr",Middletown,NY
+581,"2300 Winchester St",Baltimore,MD
+582,"Upper White Store Rd",Peachland,NC
+583,"3300 Citation Dr","Green Cove Springs",FL
+584,"Mountain View Ave","San Bernardino",CA
+585,"Debevoise Ave",Brooklyn,NY
+586,"1401 Union Ave",Sheboygan,WI
+587,"2700 E Oklahoma St",Tulsa,OK
+588,"Airline Hwy","Baton Rouge",LA
+589,"161 Bedford Ave",Brooklyn,NY
+590,"Sycamore Dr","Little Egg Harbor Township",NJ
+591,"2300 W 44th St",Tulsa,OK
+592,"Louisiana Hwy 16","Port Vincent",LA
+593,"1400 S Broadway and W Enos Drive","Santa Maria",CA
+594,"Beach Rd",Keaau,HI
+595,"S Calumet Ave and E 18th St",Chicago,IL
+596,"Childers Run Rd",Buckhannon,WV
+597,"2500 N 5th St",Milwaukee,WI
+598,"12100 Central Ave",Chino,CA
+599,"100 Olga St","San Antonio",TX
+600,"Stetson Ave",Winchester,CA
+601,"Arnold St",Gallup,NM
+602,"9525 Grovedale Cir",Riverview,FL
+603,"2700 Newton Ave",Indianapolis,IN
+604,"E 111th Pl and Antwerp St","Los Angeles",CA
+605,"Hillview Rd",Merrill,WI
+606,"W Runyan Ave",Artesia,NM
+607,"4013 N Interstate 10 Service Rd W",Metairie,LA
+608,"S Rural Rd and E Westchester Dr",Tempe,AZ
+609,US-191,Malta,MT
+610,"200 Circle Dr","Estill Springs",TN
+611,"9301 E Shea Blvd",Scottsdale,AZ
+612,"1800 N Mt Vernon Ave","San Bernardino",CA
+613,"4200 Hillview Dr",Pittsburg,CA
+614,"N Campbell Ave and E 8th St",Tucson,AZ
+615,"7400 S Merrill Ave",Chicago,IL
+616,"1st St and Richards Way",Sparks,NV
+617,"800 W Stockwell St",Compton,CA
+618,"1200 Atwood Pl","Los Angeles",CA
+619,"Jefferson St","La Quinta",CA
+620,"317 W Valley Ave",Homewood,AL
+621,"Big John Store Rd","Pleasant Hill",NC
+622,"Robin St","Manchester Township",NJ
+623,"Phillips Branch Rd",Phelps,KY
+624,"400 W 2nd St",Wapato,WA
+625,"100 Glenda Ct",Lexington,SC
+626,"100 Cool Springs Rd",Fredericksburg,VA
+627,"Sulky Ct",Randallstown,MD
+628,"Ron McNair Blvd","Lake City",SC
+629,"Louisiana Hwy 308",Raceland,LA
+630,I-84,Hammett,ID
+631,"300 4th Ave E",Alexandria,MN
+632,"Lockheed St","Palm Bay",FL
+633,"31500 Castaic Rd",Castaic,CA
+634,"456 Fern Dr",Clearfield,UT
+635,"Telegraph Rd",Detroit,MI
+636,"Upper Possum Creek Rd","Gate City",VA
+637,"Carriage Horse Dr",Aldie,VA
+638,"4000 Seven Oaks Ln SW","East Point",GA
+639,"201 Woodland Dr","Beaver Dam",WI
+640,"500 Main Street",Cincinnati,OH
+641,"2300 Green St",Harrisburg,PA
+642,"Broadleaf Dr",Louisville,KY
+643,"300 Midway Rd",Georgetown,KY
+644,"7000 Grenola Way","Citrus Heights",CA
+645,"Five Points Pike","Mt Sterling",OH
+646,"1410 Tamiami Trail","Punta Gorda",FL
+647,"N Breed St","Los Angeles",CA
+648,"803 Mountain Springs Rd",Piedmont,SC
+649,"Red Gate Dr","Little Rock",AR
+650,"County Line Rd and US-41","Shady Hills",FL
+651,"Doc Norton Rd",Walland,TN
+652,"5800 S 152nd Pl",Tukwila,WA
+653,"Woodland Hills",Harlan,KY
+654,"N Country Club Dr and W McKellips Rd",Mesa,AZ
+655,"400 E Shawnee St",Tahlequah,OK
+656,"W Indian School Rd and N 43rd Ave",Phoenix,AZ
+657,"W Auer Ave and N 44th St",Milwaukee,WI
+658,"Sheridan Blvd and W 1st Ave",Lakewood,CO
+659,"130 W Oakland St",Monticello,AR
+660,"500 Union Avenue",Fairfield,CA
+661,"Bronze Way",Vista,CA
+662,"Gallows Rd",Annandale,VA
+663,"100 Blackberry Way",Counce,TN
+664,"Miller Rd and Dodgeville Rd",Rome,OH
+665,"935 Blowing Rock Blvd",Lenoir,NC
+666,"W Century Blvd","Los Angeles",CA
+667,"Jamestown St and Sousa St",Stockton,CA
+668,"100 W Tepee St","Apache Junction",AZ
+669,US-50,Augusta,WV
+670,"103 W Main St",Kelso,WA
+671,"South Leonard Ave and W Floyd St",Tucson,AZ
+672,"800 Feliz Dr",Bakersfield,CA
+673,"2100 Wash Lever Rd","Little Mountain",SC
+674,"1740 Sutter Rd",McKinleyville,CA
+675,"300 Timber Dr",Hays,KS
+676,"Andante Dr and Brahms Ct","Citrus Heights",CA
+677,"E Thomas Rd and N 20th St",Phoenix,AZ
+678,"Sunset Blvd and Hobart Boulevard","Los Angeles",CA
+679,"900 Cheryl Ann Cir",Hayward,CA
+680,"Poway Rd and Espola Rd",Poway,CA
+681,"Algoma St and Wallace St","New London",WI
+682,"N Virginia St and Stead Blvd",Reno,NV
+683,"Carrizo Canyon Rd",Ruidoso,NM
+684,"1700 Prigmore Rd",Chattanooga,TN
+685,"15700 Allen Dr",Dinwiddie,VA
+686,"Jackson St and Dillon Ave",Indio,CA
+687,"Rocky River Rd and Interstate 485",Charlotte,NC
+688,"E Lohman Ave","Las Cruces",NM
+689,"1090 High St",Hamilton,OH
+690,"250 Bon Air Rd",Greenbrae,CA
+691,"2294 E Irlo Bronson Memorial Hwy",Kissimmee,FL
+692,"3700 W Davis St",Dallas,TX
+693,"3826 Marsh Lilly Dr",Orlando,FL
+694,"905 E Lane St",Shelbyville,TN
+695,"900 US-287","Fort Collins",CO
+696,"W Arbutus St and N Kemp Ave",Compton,CA
+697,"S White Ave",Compton,CA
+698,"W Thomas Rd and N 57th Ave",Phoenix,AZ
+699,"S Fox St and W Ellsworth Ave",Denver,CO
+700,"Boulder Hwy","Las Vegas",NV
+701,"Price Hill Rd",Morgantown,WV
+702,"1200 Ironwood Ln",Eagan,MN
+703,"311 Donald Ross Dr",Raleigh,NC
+704,"1000 W 16th St","San Bernardino",CA
+705,"Roosevelt St",Trenton,NJ
+706,"NW Canal Blvd",Redmond,OR
+707,"Broadway Ave",Kingman,AZ
+708,"9000 262nd St E",Graham,WA
+709,"1432 Longwood Loop",Tampa,FL
+710,"W FM 2410 Rd","Harker Heights",TX
+711,"S Cushman St and 15th Ave",Fairbanks,AK
+712,"111 I-20 Frontage Rd",Weatherford,TX
+713,"2600 W Bates Ave",Denver,CO
+714,"Friedly Dr",Toledo,OH
+715,"Woodglen Vista Dr",Santee,CA
+716,"Congo Rd",Wilkesboro,NC
+717,"N Sanders",Myra,TX
+718,"31 Marion Ave",Waterbury,CT
+719,"",Bend,OR
+720,"2555 Jimmy Johnson Blvd","Port Arthur",TX
+721,"1100 N Tyler Rd",Wichita,KS
+722,"1700 E 83rd St","Los Angeles",CA
+723,"2400 E 57th St","Huntington Park",CA
+724,"600 N Ross St","Santa Ana",CA
+725,"600 S Florida Ave",Alamogordo,NM
+726,"9250 Crown Crest Blvd",Parker,CO
+727,"900 Harlan Ave","St Louis",MO
+728,"0 N Macgillis Dr","Round Lake",IL
+729,Unknown,"Massac County",IL
+730,"200 Bellevue St NW","East Wenatchee",WA
+731,"2100 Pacific Ave","Atlantic City",NJ
+732,"S 25th St & W Avenue G",Temple,TX
+733,"28 1/2 Road and North Ave","Grand Junction",CO
+734,"1600 Obispo Ave","Long Beach",CA
+735,"12500 Tech Ridge Blvd",Austin,TX
+736,"1700 N Kaufman St",Ennis,TX
+737,"I-10 and W Baseline Rd",Tempe,AZ
+738,"Q St and S 22nd St",Omaha,NE
+739,"WV Route 14 and Randolph Rd",Spencer,WV
+740,"Moody Ln",Gray,TN
+741,"Thomas Rd",Phoenix,AZ
+742,"Barna Ave and Harrison St",Titusville,FL
+743,"500 S Madison St",Albany,GA
+744,"Camp Bliss Road",Verona,MO
+745,"Eastern Ave SE and 32nd St SE",Wyoming,MI
+746,"2737 Golfview St",Lakeland,FL
+747,"16200 Harmony Ranch Dr",Delhi,CA
+748,"1100 Ingram Blvd","West Memphis",AR
+749,"800 Pike St NE",Auburn,WA
+750,"320 NW 14th St","Pompano Beach",FL
+751,"Lorton Lick Rd",Montcalm,WV
+752,"M St NW and 3rd St NW",Washington,DC
+753,"1735 Edgewood Rd NW","Cedar Rapids",IA
+754,"Titus Avenue",Saratoga,CA
+755,"900 E C St",Colton,CA
+756,"27 Hoffman Ave",Columbus,OH
+757,"4200 Monterey Oaks Blvd",Austin,TX
+758,"S 21st St and E Watkins St",Phoenix,AZ
+759,"949 N 9th St",Milwaukee,WI
+760,"101 W Main St",Ozark,AR
+761,"1300 Serinna Ct","Silver City",NM
+762,"1739 Split Fork Dr",Oldsmar,FL
+763,"6910 Rosemead Blvd","San Gabriel",CA
+764,"106 Santa Rosa Blvd","Okaloosa Island",FL
+765,"10264 Ridge Top Loop","Weeki Wachee",FL
+766,"Boo Boo Blvd",Hollister,MO
+767,"32 Malletts Bay Ave",Winooski,VT
+768,"100 S 48th St",Philadelphia,PA
+769,"36th St N and Lewis Ave",Tulsa,OK
+770,"8212 Bailey Cove Rd SE",Huntsville,AL
+771,"166 Monfredo St",Rutherfordton,NC
+772,"600 Delray St",Owensboro,KY
+773,"1695 E 6th St",Beaumont,CA
+774,"4101 Division St","St Cloud",MN
+775,"US-287 and Oxford Rd",Longmont,CO
+776,"1000 Florida Ave, Akron",Akron,OH
+777,"",Logan,UT
+778,"23900 Spring Dane Dr",Spring,TX
+779,"300 SW Abacus Ave","Port St Lucie",FL
+780,US-641,Decaturville,TN
+781,"350 Trolley Line Blvd",Mashantucket,CT
+782,"9400 Lexington Cir",Charlotte,NC
+783,"Dickerson Pike and Donald St",Nashville,TN
+784,"Huron St and W 121st Ave",Westminster,CO
+785,"Cherry St and 1st St",Louisville,NE
+786,"Piedra Way and Mohawk Way","Fair Oaks",CA
+787,"Old Court Rd",Pikesville,MD
+788,"700 Humboldt St","San Antonio",TX
+789,"Congress St",Claremont,NH
+790,"22000 Colonel Glenn Rd","Little Rock",AR
+791,"301 E 50th St","Garden City",ID
+792,"4400 Law St",Houston,TX
+793,"1600 Cliff Rd E",Burnsville,MN
+794,"Akin Cir","Middle River",MD
+795,"800 Broadway","El Cajon",CA
+796,"County Road 3955",Hawkins,TX
+797,"Cobbs Creek Pkwy and Webster St",Philadelphia,PA
+798,"1600 Fresno St",Valdosta,GA
+799,"1700 Miami Ave",Kingman,AZ
+800,"1300 Knollwood Dr E",Columbus,OH
+801,"500 N 7th St",Newark,NJ
+802,"Haggerty Rd",Belleville,MI
+803,"Links Dr",Campobello,SC
+804,"400 W 2nd St",Groveton,TX
+805,"6th Ave N",Hometown,WV
+806,"W 107th St","Los Angeles",CA
+807,"16300 Dixie Hwy",Markham,IL
+808,"E 48th St and Ascot Ave","Los Angeles",CA
+809,"300 Lynn Shore Dr",Lynn,MA
+810,"700 N Burghley Ave","Ventnor City",NJ
+811,"Statesboro Pl Cir",Statesboro,GA
+812,"Gibsonton Dr",Riverview,FL
+813,"Turner St and Gates Ave",Springdale,AR
+814,"2150 Stadium Dr",Boulder,CO
