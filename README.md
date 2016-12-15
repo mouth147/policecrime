@@ -1,6 +1,8 @@
 # Police Crime Statistics
 
 To see this project live visit [policeandcrime.mikebotti.com] (https://policeandcrime.mikebotti.com)
+
+
 This is my final project for my Databases class during the Fall 2016 semester. It queries an SQLite database and populates graphs and allows you to search through the database using forms populated from the database.
 
 The point of this project is to be able to search for Victims, compare statistics between characteristics of victims and correlate them with statistics between states.
